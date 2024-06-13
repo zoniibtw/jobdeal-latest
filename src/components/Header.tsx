@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/svg/green-white-logo.svg"
 
 const Header = ({}) => {
@@ -25,16 +26,15 @@ const Header = ({}) => {
             <header id="desktop" className={`max-md:hidden z-30 fixed w-full bg-white/5 border-b border-white/25 text-white backdrop-blur-lg transition ease-in-out duration-300 ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
                 <div className={`container mx-auto flex justify-between items-center transition-all ease-in-out duration-300 ${colorChange ? 'py-2' : 'py-4'}`}>
                     <div className="flex items-center space-x-4">
-                        <div className="text-2xl font-bold">
+                        <Link to="/">
                             <img src={Logo} className="w-auto h-8" alt="" />
-                        </div>
+                        </Link>
                     </div>
                         <nav className="flex space-x-6">
-                            <a href="#find-a-job" className="hover:text-gray-400">Find a Job</a>
-                            <a href="#hire-someone" className="hover:text-gray-400">Hire someone</a>
-                            <a href="#how-it-works" className="hover:text-gray-400">How It Works</a>
-                            <a href="#about-us" className="hover:text-gray-400">About Us</a>
-                            <a href="#partners" className="hover:text-gray-400">Partners</a>
+                            <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none">Roadmap</Link>
+                            <Link to="/about" className="hover:text-gray-400 mb-0 leading-none">About</Link>
+                            <Link to="/partners" className="hover:text-gray-400 mb-0 leading-none">Partners</Link>
+                            <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none">Contact</Link>
                         </nav>
                     <div className="flex space-x-4">
                         <button className={`text-[#40D2A3] border border-[#40D2A3] px-4 rounded transition-all ease-in-out duration-300 ${colorChange ? 'py-1' : 'py-2'}`}>Login</button>
