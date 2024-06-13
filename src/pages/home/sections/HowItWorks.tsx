@@ -11,7 +11,7 @@ const HowItWorks: React.FC = () => {
           <div className="flex row-span-1 h-full col-span-1 items-center space-y-4 w-full">
             <div className="flex w-5/12">
                 <div className="w-2/3">
-                    <h3 className="text-xl font-semibold">As a Freelancer</h3>
+                    <h3 className="text-2xl font-semibold mb-1">As a Freelancer</h3>
                     <p>Find and connect with paying clients and secure work opportunities.</p>
                 </div>
 
@@ -19,7 +19,7 @@ const HowItWorks: React.FC = () => {
                     <img src={Arrow} alt="" />
                 </div>
             </div>
-            <div className="bg-black p-6 rounded-lg w-7/12">
+            <div className="bg-white/5 border border-white/25 p-6 rounded-lg w-7/12">
               <ol className="list-decimal list-inside space-y-2">
                 <li>Create an account, set your location and fill out your profile.</li>
                 <li>Go to your homepage, and browse through the <strong>“Available Near You”</strong> section, to apply for jobs.</li>
@@ -31,7 +31,7 @@ const HowItWorks: React.FC = () => {
           <div className="flex row-span-1 h-full col-span-1 items-center space-y-4 w-full">
             <div className="flex w-5/12">
                 <div className="w-2/3">
-                    <h3 className="text-xl font-semibold">As a Client</h3>
+                    <h3 className="text-2xl font-semibold mb-1">As a Client</h3>
                     <p>Find and hire top freelance talent for any project, big or small.</p>
                 </div>
 
@@ -39,7 +39,7 @@ const HowItWorks: React.FC = () => {
                     <img src={Arrow} alt="" />
                 </div>
             </div>
-            <div className="bg-black p-6 rounded-lg w-7/12">
+            <div className="bg-white/5 border border-white/25 p-6 rounded-lg w-7/12">
               <ol className="list-decimal list-inside space-y-2">
                 <li>Create an account, specify your location, and complete your profile.</li>
                 <li>On your homepage, click on <strong>“Post a job”</strong>, and fill out the required details (shouldn’t take 5 minutes).</li>

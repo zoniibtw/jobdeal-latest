@@ -18,7 +18,7 @@ const Footer = () => {
       }, [currentYear]);
 
     return (
-        <footer className="mx-auto bg-black flex flex-col items-center py-10">
+        <footer className="mx-auto bg-[#041410] flex flex-col items-center py-10">
             <div className="container w-full flex flex-col gap-6">
                 <div className="w-full">
                     <nav className="text-white flex justify-start gap-8">
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className="w-full flex justify-between">
                     <div className="">
-                        <p className="text-white">
+                        <p className="text-white/65">
                             JobDeal &copy; {currentYear} All Rights Reserved
                         </p>
                     </div>

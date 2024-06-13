@@ -6,14 +6,16 @@ import { Home, About } from "./pages/index";
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-      <BannerFooter />
-      <MailFooter />
-      <Footer />
+        <Header />
+        <div className="body-bg">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+          <BannerFooter />
+          <MailFooter />
+          <Footer />
+        </div>
     </>
   );
 }
