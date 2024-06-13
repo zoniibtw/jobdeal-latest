@@ -8,7 +8,7 @@ import OutlineLogo from "../../../assets/svg/white-outline-logo.svg"
 const Hero: React.FC = () => {
   return (
     <section className="text-white h-screen flex flex-col justify-center">
-      <div className="container mx-auto text-center flex flex-col items-center mt-[75px] gap-14">
+      <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center mt-[75px] gap-14">
         <div className="w-full flex items-center justify-start">
             <div className="min-w-[650px] w-1/3">
                 <h1 className="text-4xl text-start md:text-5xl lg:text-6xl font-semibold mb-4">Welcome to the <br/><span className="text-[#40D2A3]">Future of Connections</span></h1>
@@ -25,11 +25,15 @@ const Hero: React.FC = () => {
             </div>
         </div>
 
-        <div className="bg-white/5 border border-white/25 py-10 px-6 rounded-lg flex justify-around items-center w-full">
-          <img src={NearU} alt="Near U" className="h-12" />
-          <img src={Moongy} alt="Moongy" className="h-12" />
-          <img src={ChainLink} alt="Chainlink" className="h-12" />
-          <img src={BNB} alt="BNB" className="h-12" />
+        <div className="flex w-full justify-center">
+          <div className="bg-white/5 border border-white/25 py-10 rounded-lg flex w-full">
+            <div className="grid grid-cols-4 max-md:grid-cols-2 gap-y-10 mx-auto gap-[10%] w-full px-[15%]">
+              <img src={NearU} alt="Near U" className="h-12" />
+              <img src={Moongy} alt="Moongy" className="h-12" />
+              <img src={ChainLink} alt="Chainlink" className="h-12" />
+              <img src={BNB} alt="BNB" className="h-12" />
+            </div>
+          </div>
         </div>
       </div>
     </section>

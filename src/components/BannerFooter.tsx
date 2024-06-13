@@ -18,14 +18,14 @@ const BannerFooter = ({}) => {
                         <div className="absolute h-full w-full">
                             <div className="w-full h-full flex flex-col justify-center gap-12 px-9">
                                 <div className="w-full flex justify-end">
-                                    <div className="border-[#40D2A3] border py-2 px-6 rounded text-white bg-white/15 backdrop-blur-sm">
+                                    <div className="border-[#40D2A3] border-opacity-50 border py-2 px-6 rounded text-white bg-white/5 backdrop-blur-sm">
                                         <h1 className="text-sm font-semibold">We have revolutionized the job hunting!</h1>
                                         <p className="text-xs">Our algorithm ensures that you land the best gigs in<br /> record time.</p>
                                     </div>
                                 </div>
 
                                 <div className="w-full flex justify-start">
-                                    <div className="border-[#40D2A3] border py-2 px-6 rounded text-white bg-white/15 backdrop-blur-sm">
+                                    <div className="border-[#40D2A3] border-opacity-50 border py-2 px-6 rounded text-white bg-white/5 backdrop-blur-sm">
                                         <h1 className="text-sm font-semibold">Hire reliable hands with Ease</h1>
                                         <p className="text-xs">We'll connect you with top talent for the job. Experts<br /> with the required skills to get it done.</p>
                                     </div>
