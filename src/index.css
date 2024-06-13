@@ -8,6 +8,7 @@
 }
 
 body {
+  /* background-color: #c88bc7; */
   background-color: #041410;
 }
 
@@ -31,6 +32,13 @@ body {
     ),
     radial-gradient(circle at 50% 80%, rgba(67, 223, 155, 0.2), transparent 25%),
     radial-gradient(circle at 75% 35%, rgba(67, 223, 155, 0.2), transparent 25%);
+  /*background-image: radial-gradient(
+      circle at 20% 50%,
+      rgba(145, 48, 110, 1),
+      transparent 18%
+    ),
+    radial-gradient(circle at 50% 80%, rgba(145, 48, 110, 1), transparent 25%),
+    radial-gradient(circle at 75% 35%, rgba(145, 48, 110, 1), transparent 25%); */
   opacity: 0.6;
   z-index: -1;
 }
