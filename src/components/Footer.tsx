@@ -1,4 +1,9 @@
 import React, { useEffect, useState } from "react";
+import Twitter from "../assets/svg/twitter.svg";
+import Telegram from "../assets/svg/telegram.svg";
+import LinkedIn from "../assets/svg/linkedin.svg";
+import Discord from "../assets/svg/discord.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
@@ -37,21 +42,21 @@ const Footer = () => {
 
                     <div className="flex gap-4">
                         <p className="text-white">Join our Community</p>
-                        <nav className="flex gap-4">
-                            <a href="">
-                                <img src="" alt="" />
+                        <nav className="flex items-center gap-2.5">
+                            <a href="" target="_blank" rel="">
+                                <img className="w-4 h-auto" src={Telegram} alt="" />
                             </a>
 
-                            <a href="">
-                                <img src="" alt="" />
+                            <a href="" target="_blank" rel="">
+                                <img className="w-4 h-auto" src={Discord} alt="" />
                             </a>
 
-                            <a href="">
-                                <img src="" alt="" />
+                            <a href="" target="_blank" rel="">
+                                <img className="w-4 h-auto" src={Twitter} alt="" />
                             </a>
 
-                            <a href="">
-                                <img src="" alt="" />
+                            <a href="" target="_blank" rel="">
+                                <img className="w-4 h-auto" src={LinkedIn} alt="" />
                             </a>
                         </nav>
                     </div>
