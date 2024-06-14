@@ -41,6 +41,20 @@ const Team: React.FC = () => {
             linkedin: 'https://linkedin.com/'
         },
         {
+            name: 'Isabella Ingrosso',
+            title: 'Role title here',
+            image: Image,
+            mail: 'isabella@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Linus Videhult',
+            title: 'Role title here',
+            image: Image,
+            mail: 'linus@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
             name: 'Jayper Sanchez',
             title: 'Role title here',
             image: Image,
