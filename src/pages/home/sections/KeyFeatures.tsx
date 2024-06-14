@@ -43,7 +43,7 @@ const KeyFeatures: React.FC = () => {
   return (
     <section className="text-white pb-20 pt-10">
       <div className="container mx-auto max-md:px-5">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Jobdeal Key Features</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">Jobdeal Key Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-white/5 border border-white/25 p-10 rounded-lg flex flex-col gap-5">

@@ -5,7 +5,7 @@ const HowItWorks: React.FC = () => {
   return (
     <section className="text-white pt-20 pb-40">
       <div className="container max-md:px-5 mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">How it Works</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">How it Works</h2>
         <div className="grid grid-rows-2 grid-cols-1 gap-8">
 
           <div className="flex row-span-1 h-full col-span-1 items-center space-y-4 w-full">
