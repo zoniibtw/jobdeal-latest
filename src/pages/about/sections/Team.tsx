@@ -13,6 +13,20 @@ const Team: React.FC = () => {
             linkedin: 'https://linkedin.com/'
         },
         {
+            name: 'Mathias Eriksson',
+            title: 'Title here',
+            image: Image,
+            mail: 'mathias.eriksson@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Mathias Lindmark',
+            title: 'Title here',
+            image: Image,
+            mail: 'mathias.lindmark@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
             name: 'Jayper Sanchez',
             title: 'CTO',
             image: Image,
@@ -115,20 +129,6 @@ const Team: React.FC = () => {
             title: 'Developer',
             image: Image,
             mail: 'roka@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'William',
-            title: 'Developer',
-            image: Image,
-            mail: 'william@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Prathamesh',
-            title: 'Developer',
-            image: Image,
-            mail: 'prathamesh@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
