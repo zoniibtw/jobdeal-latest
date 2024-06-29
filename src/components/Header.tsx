@@ -34,7 +34,9 @@ const Header = ({}) => {
                             <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none">Roadmap</Link>
                             <Link to="/about" className="hover:text-gray-400 mb-0 leading-none">About</Link>
                             <Link to="/partners" className="hover:text-gray-400 mb-0 leading-none">Partners</Link>
+                            <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none">For investors</Link>
                             <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none">Contact</Link>
+                            <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none">FAQ</Link>
                         </nav>
                     <div className="flex space-x-4">
                         <button className={`text-[#40D2A3] border border-[#40D2A3] px-4 rounded transition-all ease-in-out duration-300 ${colorChange ? 'py-1' : 'py-2'}`}>Login</button>
