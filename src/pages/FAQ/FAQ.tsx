@@ -1,10 +1,10 @@
 import React from 'react';
-import { Section } from './index';
+import { Section, Hero } from './index';
 
 const FAQ: React.FC = () => {
   return (
     <>
-        <div>FAQ</div>
+        <Hero />
         <Section />
     </>
   );

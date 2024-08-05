@@ -1,12 +1,11 @@
 import React from 'react';
-import { Hero, Team, Vision, USP } from './index';
+import { Hero, Team, Vision } from './index';
 
 const About: React.FC = () => {
   return (
     <>
       <Hero />
       <Vision />
-      <USP />
       <Team />
     </>
   );

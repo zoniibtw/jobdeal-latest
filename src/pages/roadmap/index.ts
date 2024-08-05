@@ -1,3 +1,4 @@
-import S1 from "./sections/s1";
+import RoadmapComp from "./sections/RoadmapComp";
+import Hero from "./sections/Hero";
 
-export { S1 };
+export { RoadmapComp, Hero };

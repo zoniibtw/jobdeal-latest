@@ -1,10 +1,10 @@
 import React from 'react';
-import { Section } from './index';
+import { Section, Hero } from './index';
 
 const Investor: React.FC = () => {
   return (
     <>
-        <div>Investor</div>
+        <Hero />
         <Section />
     </>
   );

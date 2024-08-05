@@ -1,148 +1,88 @@
 import React from "react";
 import Image from "../../../assets/sample.png";
+import Hakan from "../../../assets/png/staff/hakan.jpeg";
+import Nino from "../../../assets/png/staff/nino.jpeg";
+import Markus from "../../../assets/png/staff/markus.jpeg";
 import LinkedIn from "../../../assets/svg/linkedin.svg";
 import Mail from "../../../assets/svg/newsletter.svg";
 
 const Team: React.FC = () => {
     const team = [
         {
-            name: 'Markus Barth-Jörgensen',
-            title: 'Manager & Co-Founder',
-            image: Image,
-            mail: 'markus@jobdeal.com',
+            name: 'Håkan Ozan',
+            title: 'CEO',
+            image: Hakan,
+            mail: 'hakan@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Mathias Eriksson',
-            title: 'Title here',
-            image: Image,
-            mail: 'mathias.eriksson@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Mathias Lindmark',
-            title: 'Title here',
-            image: Image,
-            mail: 'mathias.lindmark@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Jayper Sanchez',
-            title: 'CTO',
-            image: Image,
-            mail: 'jayper@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Anton Persson',
-            title: 'Co-CTO',
-            image: Image,
-            mail: 'anton@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Bilal Sanchez',
-            title: 'CMO',
-            image: Image,
-            mail: 'bilal@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Fatima',
-            title: 'CPO',
-            image: Image,
-            mail: 'fatima@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Daniel Simon',
-            title: 'Partners & Relations',
-            image: Image,
-            mail: 'daniel@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Dasha Chepizhko',
-            title: 'Role title here',
-            image: Image,
-            mail: 'dasha@jobdeal.com',
+            name: 'Nino Baraka',
+            title: 'Board member & Advisor',
+            image: Nino,
+            mail: 'nino@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
             name: 'Jan Jakub Kowalczyk',
-            title: 'Crypto Financial Advisor',
+            title: '',
             image: Image,
             mail: 'jan@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Pedro',
-            title: 'Web3 Advisor',
+            name: 'Pedro Aguiar',
+            title: '',
             image: Image,
             mail: 'pedro@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Stella',
-            title: 'Community',
-            image: Image,
-            mail: 'stella@jobdeal.com',
+            name: 'Markus Barth-Jörgensen',
+            title: 'Manager & Co-Founder',
+            image: Markus,
+            mail: 'markus@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Wilsdom Ekwere',
-            title: 'Designer (Graphics/UX)',
+            name: 'Younes Bendella',
+            title: '',
             image: Image,
-            mail: 'wilsdom@jobdeal.com',
+            mail: 'younes@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
             name: 'Daniel',
-            title: 'Community',
+            title: '',
             image: Image,
             mail: 'daniel@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Maglorie',
-            title: 'Charity Advisor',
+            name: 'Temitayo Adedoyin',
+            title: '',
             image: Image,
-            mail: 'maglorie@jobdeal.com',
+            mail: 'temitayo@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Arsalan Ahmed',
-            title: 'Server Technician/Engineer',
-            image: Image,
-            mail: 'arsalan@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Kawa',
-            title: 'Developer',
+            name: 'Kawa Saito',
+            title: '',
             image: Image,
             mail: 'kawa@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Roka',
-            title: 'Developer',
+            name: 'GoodBoi',
+            title: '',
             image: Image,
-            mail: 'roka@jobdeal.com',
+            mail: 'GoodBoi@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Saviour Ani',
-            title: 'Video/Motion Graphics',
+            name: 'Stella Onyinyechi',
+            title: '',
             image: Image,
-            mail: 'saviour@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Romar',
-            title: 'Developer',
-            image: Image,
-            mail: 'romar@jobdeal.com',
+            mail: 'stella@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
     ];

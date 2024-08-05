@@ -1,10 +1,11 @@
-// src/pages/Home.tsx
 import React from 'react';
+import { RoadmapComp, Hero } from "./index";
 
 const RoadMap: React.FC = () => {
   return (
     <>
-        <div></div>
+      <Hero />
+      <RoadmapComp />
     </>
   );
 };
