@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 const Vision: React.FC = () => {
   const { t } = useTranslation(['about']);
+  
   return (
     <section className="text-white pb-20 flex flex-col justify-center">
       <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center justify-center mt-[75px]">

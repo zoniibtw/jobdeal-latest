@@ -1,0 +1,121 @@
+{
+    "hero": {
+        "title": "Har du frågor?",
+        "marked": "Vi har svaren.",
+        "paragraph": "Hitta den information du behöver för att få ut det mesta av JobDeal."
+    },
+    "question": {
+        "q1": {
+            "q": "Vad är JobDeal?",
+            "a": "JobDeal är en innovativ frilans- och gig-marknadsplats utformad för att eliminera mellanhänder och direkt koppla samman uppdragsgivare med frilansare. Detta tillvägagångssätt minskar kostnader och ökar effektiviteten och erbjuder en säker och transparent plattform för olika typer av jobb."
+        },
+        "q2": {
+            "q": "Hur säkerställer JobDeal säkerhet och transparens?",
+            "a": "JobDeal använder principer från Blockchain-decentraliserad autonom organisation (DAO) och artificiell intelligens för att säkerställa högsta säkerhet, transparens, autonomi och automation."
+        },
+        "q3": {
+            "q": "Vilka typer av jobb kan jag hitta på JobDeal?",
+            "a": "JobDeal erbjuder ett brett utbud av tjänster för både lokala och globala marknader som täcker allt från arbetsintensiva jobb till intellektuella uppgifter, inklusive teknik- och IT-tjänster, kreativa och intellektuella tjänster samt möjligheter till distansarbete."
+        },
+        "q4": {
+            "q": "Hur stödjer JobDeal välgörenhetsändamål?",
+            "a": "JobDeal donerar 1% av sina vinster till välgörenhetsändamål, vilket gör det möjligt för användare att bidra till dessa initiativ genom sitt deltagande på plattformen."
+        },
+        "q5": {
+            "q": "Hur lägger jag upp ett jobb på JobDeal?",
+            "a": "1. Logga in på JobDeal.\n2. Klicka på \"+ Skapa en annons.\"\n3. Ladda upp projektbilder.\n4. Ange ett beskrivande jobbnamn.\n5. Skriv en detaljerad jobb beskrivning.\n6. Sätt ett konkurrenskraftigt pris.\n7. Välj lämplig kategori och plats.\n8. Ange ett utgångsdatum/-tid.\n9. Välj betalningsmetod: Escrow + Fiat Cash eller Crypto.\n10. Publicera annonsen."
+        },
+        "q6": {
+            "q": "Vilka betalningsmetoder finns tillgängliga?",
+            "a": "Uppdragsgivare kan välja mellan escrow, fiat cash eller kryptobetalningar för jobblistor."
+        },
+        "q7": {
+            "q": "Hur säkerställer jag kvaliteten på frilansare?",
+            "a": "Efter att ha betalat annonsavgiften kan uppdragsgivare få tillgång till betyg, kommentarer och kontakter för att välja den bästa frilansaren för jobbet."
+        },
+        "q8": {
+            "q": "Vad händer om det uppstår en tvist med en frilansare?",
+            "a": "JobDeal har en tvistlösningsmodul som hjälper till att lösa konflikter för att säkerställa nöjdhet för båda parter."
+        },
+        "q9": {
+            "q": "Hur ansöker jag om ett jobb på JobDeal?",
+            "a": "1. Logga in på JobDeal.\n2. Bläddra bland jobblistor.\n3. Förhandla om pris och omfattning.\n4. Bestäm om du ska använda escrow.\n5. Ansök om jobbet."
+        },
+        "q10": {
+            "q": "Hur fungerar escrow-systemet?",
+            "a": "Escrow-skyddade betalningar säkerställer att medel hålls säkert och släpps efter ömsesidig överenskommelse mellan uppdragsgivaren och frilansaren, vilket ger en pålitlig betalningsprocess."
+        },
+        "q11": {
+            "q": "Hur tjänar jag extra inkomst på JobDeal?",
+            "a": "Frilansare kan tjäna extra inkomst genom möjligheter som Watch2Earn och Learn2Earn-programmen samt genom att delta i rekrytera-och-tjäna-programmet."
+        },
+        "q12": {
+            "q": "Vilka fördelar får premium medlemmar?",
+            "a": "Premium medlemmar har tillgång till vinstdelning, ytterligare funktioner, billigare annonspriser, bättre synlighet och avancerade AI-chattfunktioner bland andra fördelar."
+        },
+        "q13": {
+            "q": "Vilka är de viktigaste funktionerna i JobDeal?",
+            "a": "- AI-baserad automation för ökad effektivitet.\n- Kryptering och blockchain-säkerhet i regeringsklass.\n- Flexibla escrow-tjänster.\n- Tvistlösningsmodul.\n- Rekrytera-och-tjäna-program.\n- AI-översättning chatt för sömlös kommunikation.\n- Mikroinlärningsinnehåll för att tjäna JobDealCoin (JDC) och mikrointyg.\n- DAO-styrning för transparent beslutsfattande.\n- NFT-baserad användarverifiering.\n- Konkurrenskraftiga annonsavgifter och välgörenhetsbidrag."
+        },
+        "q14": {
+            "q": "Hur använder JobDeal AI och Blockchain?",
+            "a": "AI förbättrar kommunikationen med direktöversättning, personlig sökning och annonsoptimering. Blockchain säkerställer verifierbara identiteter, säkra transaktioner och ett transparent betygssystem."
+        },
+        "q15": {
+            "q": "Vad är JobDealCoin (JDC)?",
+            "a": "JobDealCoin (JDC) möjliggör en decentraliserad plattform som ger passiv inkomst från olika aktiviteter och fördelar som lägre avgifter och avancerade funktioner för premiumanvändare."
+        },
+        "q16": {
+            "q": "Hur fungerar det NFT-baserade användarsystemet?",
+            "a": "NFT-profiler ger verifierbara identiteter för användare och säkerställer äkthet och säkerhet i hanteringen av personuppgifter."
+        },
+        "q17": {
+            "q": "Vad är JobDeals intäktsmodell?",
+            "a": "JobDeals intäktsströmmar inkluderar premium medlemskap, annonsavgifter, förhandlingskommissioner, avgifter för brådskande jobb, förbättrad annons synlighet, tvist- och escrow-systemavgifter, kommersiella platser och försäljning av användardata."
+        },
+        "q18": {
+            "q": "Hur mycket kostar ett premium medlemskap?",
+            "a": "Premium medlemskap kostar i genomsnitt cirka 12 Euro per månad och erbjuder ytterligare AI-funktioner och fördelar."
+        },
+        "q19": {
+            "q": "Vilka avgifter gäller för uppdragsgivare?",
+            "a": "Uppdragsgivare betalar en avgift på 10% baserat på jobbvärdet med ytterligare avgifter för brådskande jobb (20%) och förbättrad annons synlighet (10%)."
+        },
+        "q20": {
+            "q": "Hur gynnas frilansare av premiumfunktioner?",
+            "a": "Frilansare får bättre synlighet, förhandlingsmöjligheter och tillgång till avancerade funktioner som hjälper dem att säkra fler jobb och förbättra sina intäkter."
+        },
+        "q21": {
+            "q": "Vad har JobDeal för framtidsplaner?",
+            "a": "JobDeal planerar att expandera sina tjänster till nya marknader, integrera avancerade teknologier som maskininlärning och VR och kontinuerligt förbättra plattformen baserat på användarfeedback. Specifika milstolpar inkluderar lansering av en mobilapplikation, förbättrad säkerhet och integritet samt påbörjad decentralisering av JobDeal."
+        },
+        "q22": {
+            "q": "När kommer nya funktioner att lanseras?",
+            "a": "Viktiga milstolpar i färdplanen inkluderar:\n- Q2 2024: Lansering av Web3 version 1.34, Watch2Earn, AI Translate Chat och mer.\n- Q3 2024: ICO-lansering, JobDeal Charity, Learn2Earn och andra förbättringar.\n- Q4 2024: Integration av Crypto Wallet, JobDeal Support och Tip Freelancer.\n- Q1 2025: Kompetensklasser (Learn2Earn), USA-version, utveckling av mobilapplikation och mer."
+        },
+        "q23": {
+            "q": "Hur engagerar sig JobDeal med sitt community?",
+            "a": "JobDeal engagerar sig med sitt community genom aktiv närvaro på sociala medier, regelbundna uppdateringar, community-forum och mekanismer för användarfeedback för att säkerställa kontinuerliga förbättringar och användarnöjdhet."
+        },
+        "q24": {
+            "q": "Vilka kundsupportalternativ finns tillgängliga?",
+            "a": "JobDeal erbjuder ett omfattande kundsupportsystem inklusive en hjälpdesk, livechatt och en detaljerad FAQ-sektion för att hjälpa användare."
+        },
+        "q25": {
+            "q": "Hur kan jag ge feedback till JobDeal?",
+            "a": "Användare kan ge feedback genom plattformens community-forum, enkäter och direkt kommunikation med supportteamet. Denna feedback används aktivt för att förbättra tjänster och funktioner."
+        },
+        "q26": {
+            "q": "Hur skyddar JobDeal användardata?",
+            "a": "JobDeal prioriterar skydd av användardata med avancerad kryptering, strikta integritetspolicyer, användarkontrollalternativ och regelbundna säkerhetsgranskningar för att säkerställa datasäkerhet och integritet."
+        }, 
+        "q27": {
+            "q": "Vilka integritetspolicyer följer JobDeal?",
+            "a": "JobDeal följer globala regler som GDPR och CCPA för att säkerställa att användardata hanteras enligt högsta standard för integritet och säkerhet."
+        },
+        "q28": {
+            "q": "Kan användare kontrollera sina data på JobDeal?",
+            "a": "Ja, användare har full kontroll över sina data inklusive alternativ att visa, redigera och radera sin information för att säkerställa transparens och förtroende."
+        }
+    }
+}

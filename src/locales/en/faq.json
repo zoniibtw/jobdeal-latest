@@ -1,0 +1,121 @@
+{
+    "hero": {
+        "title": "Got questions?",
+        "marked": "We have answers.",
+        "paragraph": "Find the information you need to make the most out of JobDeal."
+    },
+    "question": {
+        "q1": {
+            "q": "What is JobDeal?",
+            "a": "JobDeal is an innovative freelance and gig marketplace designed to eliminate middlemen and directly connect contractors with freelancers. This approach reduces costs and increases efficiency providing a secure and transparent platform for various types of jobs."
+        },
+        "q2": {
+            "q": "How does JobDeal ensure security and transparency?",
+            "a": "JobDeal leverages Blockchain decentralized autonomous organization (DAO) principles and artificial intelligence to ensure top-notch security transparency autonomy and automation."
+        },
+        "q3": {
+            "q": "What types of jobs can I find on JobDeal?",
+            "a": "JobDeal offers a wide range of services for both local and global markets covering labor-intensive jobs to intellectual tasks including technology and IT services creative and intellectual services and remote work opportunities."
+        },
+        "q4": {
+            "q": "How does JobDeal support charitable causes?",
+            "a": "JobDeal donates 1% of its profits to charitable causes allowing users to contribute to these initiatives through their participation on the platform."
+        },
+        "q5": {
+            "q": "How do I post a job on JobDeal?",
+            "a": "1. Log in to JobDeal.\n2. Click \"+ Create an Ad.\"\n3. Upload project images.\n4. Set a descriptive job name.\n5. Write a detailed job description.\n6. Set a competitive price.\n7. Choose the appropriate category and location.\n8. Set an expiry date/time.\n9. Select a payment method: Escrow + Fiat Cash or Crypto.\n10. Publish the ad."
+        },
+        "q6": {
+            "q": "What payment methods are available?",
+            "a": "Contractors can choose between escrow fiat cash or crypto payments for job listings."
+        },
+        "q7": {
+            "q": "How do I ensure the quality of freelancers?",
+            "a": "After paying the ad fee contractors can access applicant ratings comments and contacts to help select the best freelancer for the job."
+        },
+        "q8": {
+            "q": "What if there's a dispute with a freelancer?",
+            "a": "JobDeal has a dispute resolution module that helps resolve conflicts to ensure satisfaction for both parties."
+        },
+        "q9": {
+            "q": "How do I apply for a job on JobDeal?",
+            "a": "1. Log in to JobDeal.\n2. Browse job listings.\n3. Negotiate price and scope.\n4. Decide on escrow usage.\n5. Apply for the job."
+        },
+        "q10": {
+            "q": "How does the escrow system work?",
+            "a": "Escrow-protected payments ensure that funds are held securely and released upon mutual agreement between the contractor and the freelancer providing a trustworthy payment process."
+        },
+        "q11": {
+            "q": "How do I earn additional income on JobDeal?",
+            "a": "Freelancers can earn additional income through opportunities such as the Watch2Earn and Learn2Earn programs and by participating in the recruit-to-earn program."
+        },
+        "q12": {
+            "q": "What benefits do premium members get?",
+            "a": "Premium members have access to profit-sharing additional features cheaper ad prices better visibility and advanced AI chat features among other benefits."
+        },
+        "q13": {
+            "q": "What are the key features of JobDeal?",
+            "a": "- AI-based automation for enhanced efficiency.\n- Government-grade encryption and blockchain security.\n- Flexible escrow services.\n- Dispute resolution module.\n- Recruit to earn program.\n- AI translation chat for seamless communication.\n- Microlearning content to earn JobDealCoin (JDC) and micro-credentials.\n- DAO governance for transparent decision-making.\n- NFT-based user verification.\n- Competitive ad fees and charitable contributions."
+        },
+        "q14": {
+            "q": "How does JobDeal use AI and Blockchain?",
+            "a": "AI enhances communication with direct translation personalized search and ad optimization. Blockchain ensures verifiable identities secure transactions and a transparent rating system."
+        },
+        "q15": {
+            "q": "What is the JobDealCoin (JDC)?",
+            "a": "JobDealCoin (JDC) facilitates a decentralized platform enabling passive income from various activities and providing benefits such as lower fees and advanced features for premium users."
+        },
+        "q16": {
+            "q": "How does the NFT-based user system work?",
+            "a": "NFT profiles provide verifiable identities for users ensuring authenticity and security in managing personal data."
+        },
+        "q17": {
+            "q": "What is JobDeal's revenue model?",
+            "a": "JobDeal's revenue streams include premium memberships advertisement fees bargaining commissions urgent job fees enhanced ad visibility dispute and escrow system fees commercial spots and user data sales."
+        },
+        "q18": {
+            "q": "How much does a premium membership cost?",
+            "a": "Premium memberships average around 12 Euro per month offering additional AI features and benefits."
+        },
+        "q19": {
+            "q": "What are the fees for contractors?",
+            "a": "Contractors pay a 10% fee based on the job value with additional fees for urgent jobs (20%) and enhanced ad visibility (10%)."
+        },
+        "q20": {
+            "q": "How do freelancers benefit from premium features?",
+            "a": "Freelancers gain better visibility negotiation opportunities and access to advanced features helping them secure more jobs and improve their earnings."
+        },
+        "q21": {
+            "q": "What are JobDeal's plans for the future?",
+            "a": "JobDeal plans to expand its services to new markets integrate advanced technologies like machine learning and VR and continuously improve the platform based on user feedback. Specific milestones include launching a mobile application enhancing security and privacy and starting the decentralization of JobDeal."
+        },
+        "q22": {
+            "q": "When will new features be released?",
+            "a": "Key milestones in the roadmap include:\n- Q2 2024: Launch of Web3 version 1.34 Watch2Earn AI Translate Chat and more.\n- Q3 2024: ICO launch JobDeal Charity Learn2Earn and other enhancements.\n- Q4 2024: Integration of Crypto Wallet JobDeal Support and Tip Freelancer.\n- Q1 2025: Skillset Classes (Learn2Earn) USA Version Release Mobile Application Development and more."
+        },
+        "q23": {
+            "q": "How does JobDeal engage with its community?",
+            "a": "JobDeal engages with its community through active social media presence regular updates community forums and user feedback mechanisms to ensure continuous improvement and user satisfaction."
+        },
+        "q24": {
+            "q": "What customer support options are available?",
+            "a": "JobDeal offers a comprehensive customer support system including a help desk live chat and a detailed FAQ section to assist users."
+        },
+        "q25": {
+            "q": "How can I provide feedback to JobDeal?",
+            "a": "Users can provide feedback through the platform's community forums surveys and direct communication with the support team. This feedback is actively used to improve services and features."
+        },
+        "q26": {
+            "q": "How does JobDeal protect user data?",
+            "a": "JobDeal prioritizes user data protection with advanced encryption strict privacy policies user control options and regular security audits to ensure data security and privacy."
+        }, 
+        "q27": {
+            "q": "What privacy policies does JobDeal adhere to?",
+            "a": "JobDeal complies with global regulations like GDPR and CCPA ensuring that user data is handled with the highest standards of privacy and security."
+        },
+        "q28": {
+            "q": "Can users control their data on JobDeal?",
+            "a": "Yes users have full control over their data including options to view edit and delete their information ensuring transparency and trust."
+        }
+    }
+}
