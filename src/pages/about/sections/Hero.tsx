@@ -1,13 +1,15 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import OutlineLogo from "../../../assets/svg/white-outline-logo.svg"
 
 const Hero: React.FC = () => {
+  const { t } = useTranslation(['about']);
   return (
     <section className="text-white py-20 flex flex-col justify-center">
       <div className="container relative max-md:px-5 mx-auto text-center flex flex-col items-center justify-center mt-[75px]">
         <div className="flex flex-col items-center justify-center gap-4">
-            <h1 className="text-4xl font-semibold">Meet our team,<br/><span className="text-[#40D2A3]">and our vision.</span></h1>
-            <p className="w-4/6 opacity-65">Get to know the dedicated professionals and the inspiring vision that drive our success and innovation.</p>
+            <h1 className="text-4xl font-semibold">{t('hero.title')}<br/><span className="text-[#40D2A3]">{t('hero.marked')}</span></h1>
+            <p className="w-4/6 opacity-65">{t('hero.paragraph')}</p>
         </div>
 
         <div className="absolute">

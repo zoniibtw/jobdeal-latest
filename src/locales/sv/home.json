@@ -1,0 +1,45 @@
+{
+    "hero": {
+        "title1": "Välkommen till",
+        "title2": "Framtiden för Jobbanslutningar",
+        "paragraph": "Vi presenterar JobDeal – den första plattformen i sitt slag som revolutionerar arbetsmarknaden med banbrytande AI-integration i varje steg. Upplev oöverträffade jobbanslutningar när vår avancerade AI sömlöst matchar Användare och Frilansare, och säkerställer en säker, flexibel och högst effektiv process. Steg in i framtiden med JobDeal, där ditt perfekta jobb eller idealiska frilansarbete bara är ett klick bort!",
+        "button": "Läs mer",
+        "button1": "Kontakta oss"
+    },
+    "roadmap": {
+        "title": "En Titt på JobDeals Spännande Färdplan",
+        "paragraph": "JobDeal är på väg att revolutionera frilansmarknaden, med en ambitiös färdplan som lovar banbrytande utvecklingar de kommande månaderna. Vi är glada att meddela att vi om bara tre månader kommer att lansera Beta-versionen av vår AI- och Blockchain-förstärkta plattform, som erbjuder användare en första titt på framtiden för frilansarbete. Men det är bara början. När vi fortsätter att innovera och expandera, förbereder vi oss också för en offentlig notering på Nasdaq/NGM-börsen inom mindre än 12 månader. Detta milstolpe kommer inte bara att befästa JobDeals position på marknaden utan också ge våra tidiga investerare en utmärkt möjlighet att dra nytta av vår tillväxt.",
+        "paragraph1": "Håll ögonen öppna—JobDeal är på väg att omdefiniera frilansbranschen, och detta är din chans att vara en del av det från grunden.",
+        "button1": "Färdplan",
+        "button2": "För investerare"
+    },
+    "keyfeatures": {
+        "title": "JobDeals Nyckelfunktioner",
+        "feature": {
+            "one": {
+                "title": "Säkerhet",
+                "paragraph": "Vår plattform säkerställer en rättvis och säker miljö genom att integrera avancerad kryptering och blockchain-teknologi för säkra transaktioner. AI-drivna escrow-tjänster, tvistlösning och sofistikerade algoritmer filtrerar bort olämpliga annonser, vilket höjer säkerheten och användarförtroendet."
+            },
+            "two": {
+                "title": "NFT-baserat Användarsystem",
+                "paragraph": "Vårt innovativa NFT-system utnyttjar blockchain för att förbättra användarautentisering och tillgångshantering, vilket gör det möjligt för användare att äga, tjäna pengar på, anpassa och sömlöst verka inom digitala utrymmen. Denna integration säkerställer en robust och mångsidig användarupplevelse."
+            },
+            "three": {
+                "title": "Lär dig för att Tjäna",
+                "paragraph": "Engagera dig i vårt AI-förstärkta mikrolärande innehåll som är utformat för att passa din takt. Tjäna erkännande och belöningar genom att bemästra uppgifter och färdigheter, särskilt inom Web 3-teknologier, och förbättra både din kunskap och funktionalitet på vår plattform."
+            },
+            "four": {
+                "title": "Rekrytera för att Tjäna",
+                "paragraph": "Våra AI-algoritmer optimerar din nätverks potential när du bjuder in vänner att gå med i JobDeal. Tjäna 10% provision på deras genererade vinster, som ett tack för att du utökar vår AI- och blockchain-förstärkta community."
+            },
+            "five": {
+                "title": "Låga Kostnader",
+                "paragraph": "Våra avgifter varierar från 2,5% till 20% beroende på tjänst och betalningsmetod, och omfattar annonsavgifter, förhandlingar, akuta jobb, förbättrade annonser och premiummedlemskap, allt optimerat för att säkerställa överkomliga priser."
+            },
+            "six": {
+                "title": "Välgörenhet",
+                "paragraph": "Vi avsätter 0,1% av varje transaktion till välgörenhet som väljs av vår community var sjätte månad. Vår process säkerställer att bidragen går till ändamål där de kan göra störst inverkan, vilket bekräftar vårt engagemang för socialt ansvar."
+            }
+        }
+    }
+}

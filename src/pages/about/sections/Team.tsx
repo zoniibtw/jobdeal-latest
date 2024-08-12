@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../../assets/sample.png";
+import { useTranslation } from "react-i18next";
 import Hakan from "../../../assets/png/staff/hakan.jpeg";
 import Nino from "../../../assets/png/staff/nino.jpeg";
 import Markus from "../../../assets/png/staff/markus.jpeg";
@@ -19,6 +19,7 @@ import LinkedIn from "../../../assets/svg/linkedin.svg";
 import Mail from "../../../assets/svg/newsletter.svg";
 
 const Team: React.FC = () => {
+    const { t } = useTranslation(['about']);
     const team = [
         {
             name: 'Håkan Ozan',
@@ -130,7 +131,7 @@ const Team: React.FC = () => {
     return (
         <section className="text-white py-20">
             <div className="container mx-auto max-md:px-5">
-                <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">Meet our Team</h2>
+                <h2 className="text-3xl md:text-4xl font-semibold text-center mb-12">{t('team.title')}</h2>
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-14">
                     {team.map((team, index) => (
                         <div key={index} className="bg-white/5 border border-white/25 max-md:p-3 p-5 rounded-lg flex flex-col gap-2.5">

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Logo from "../assets/svg/green-white-logo.svg";
 
 const Header: React.FC = () => {
-    const { t, i18n } = useTranslation();
+    const { t, i18n } = useTranslation('common');
     const [lastScrollY, setLastScrollY] = useState(0);
     const [visible, setVisible] = useState(true);
     const [colorChange, setColorChange] = useState(false);

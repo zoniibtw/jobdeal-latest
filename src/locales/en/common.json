@@ -1,4 +1,48 @@
 {
-    "welcome_message": "Welcome to the Home Page!",
-    "home_subtitle": "This is the main landing page of our site."
+  "header": {
+    "link1": "Roadmap",
+    "link2": "About",
+    "link3": "News",
+    "link4": "For investors",
+    "link5": "Contact",
+    "link6": "FAQ"
+  },
+  "footer": {
+    "nav1": {
+      "link1": "Roadmap",
+      "link2": "LightPaper",
+      "link3": "For investors",
+      "link4": "Contact us",
+      "link5": "News",
+      "link6": "About",
+      "link7": "FAQ"
+    },
+    "nav2": {
+      "link1": "Terms & Condition",
+      "link2": "Privacy Policy",
+      "link3": "Manage Cookies"
+    },
+    "copywrite": "JobDeal © 2024 All Rights Reserved",
+    "community": "Join our Community"
+  },
+  "banner": {
+    "title": "Refer a Freelancer.",
+    "title2": "Earn Rewards.",
+    "paragraph": "Earn rewards by inviting friends to join JobDeal. You’ll receive a 10% commission on their profits as a thank you for supporting our community.",
+    "button": "Coming soon",
+    "box1": {
+      "title": "We have revolutionized the job hunting!",
+      "paragraph": "Our algorithm ensures that you land the best gigs in record time."
+    },
+    "box2": {
+      "title": "Hire reliable hands with Ease",
+      "paragraph": "We'll connect you with top talent for the job. Experts with the required skills to get it done."
+    }
+  },
+  "newsletter": {
+    "title": "Stay connected",
+    "undertitle": "Subscribe to our newsletter",
+    "input": "email",
+    "button": "Subscribe"
   }
+}

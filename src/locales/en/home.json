@@ -1,0 +1,45 @@
+{
+    "hero": {
+        "title1": "Welcome to the",
+        "title2": "Future of Job Connections",
+        "paragraph": "Introducing JobDeal – the first-of-its-kind platform that revolutionizes the job market with cutting-edge AI integration at every step. Experience unparalleled job connections as our advanced AI seamlessly matches Users and Freelancers, ensuring a secure, flexible, and highly efficient process. Step into the future with JobDeal, where your perfect job or ideal freelancer is just a click away!",
+        "button": "Read More",
+        "button1": "Contact us" 
+    },
+    "roadmap": {
+        "title": "A Glimpse into JobDeal's Exciting Roadmap",
+        "paragraph": "JobDeal is on the brink of revolutionizing the freelance economy, with an ambitious roadmap that promises game-changing developments in the coming months. We're thrilled to announce that in just three months, we'll be launching the Beta version of our AI and Blockchain-enhanced platform, offering users a first look at the future of freelance work. But that's just the beginning. As we continue to innovate and expand, we're also preparing for a public listing on the Nasdaq/NGM stock exchange  in less than 12 months. This milestone will not only solidify JobDeal's position in the market but also provide our early investors with a prime opportunity to capitalize on our growth.",
+        "paragraph1": "Stay tuned—JobDeal is set to redefine the freelance industry, and this is your chance to be part of it from the ground up.",
+        "button1": "Roadmap",
+        "button2": "For investors"
+    },
+    "keyfeatures": {
+        "title": "Jobdeal Key Features",
+        "feature": {
+            "one": {
+                "title": "Security",
+                "paragraph": "Our platform ensures a fair and secure environment by integrating advanced encryption and blockchain technology for safe transactions. AI-driven escrow services, dispute resolution, and sophisticated algorithms filter out inappropriate ads, elevating security and user trust."
+            },
+            "two": {
+                "title": "NFT based User System",
+                "paragraph": "Our innovative NFT system leverages blockchain to enhance user authentication and asset management, enabling users to own, monetize, personalize, and seamlessly operate within digital spaces. This integration ensures a robust and versatile user experience."
+            },
+            "three": {
+                "title": "Learn To Earn",
+                "paragraph": "Engage with our AI-enhanced microlearning content designed to fit your pace. Earn recognition and rewards by mastering tasks and skills, particularly in Web 3 technologies, enhancing both your knowledge and functionality on our platform."
+            },
+            "four": {
+                "title": "Recruit to Earn",
+                "paragraph": "Our AI algorithms optimize your networks potential as you invite friends to join JobDeal. Earn a 10% commission on their generated profits, a token of appreciation for expanding our AI and blockchain-enhanced community."
+            },
+            "five": {
+                "title": "Low Costs",
+                "paragraph": "Our fees range from 2.5% to 20% based on service and payment method, encompassing ad fees, bargains, urgent jobs, enhanced ads, and premium memberships, all optimized to ensure affordability."
+            },
+            "six": {
+                "title": "Charity",
+                "paragraph": "We commit 0.1% of every transaction to charities chosen by our community every six months. Our process ensures that contributions are directed towards causes where they can make the most significant impact, reaffirming our dedication to social responsibility."
+            }
+        }
+    }
+}

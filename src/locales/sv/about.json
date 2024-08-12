@@ -1,0 +1,20 @@
+{
+    "hero": {
+        "title": "Möt vårt team,",
+        "marked": "och vår vision.",
+        "paragraph": "Lär känna de dedikerade yrkesverksamma och den inspirerande vision som driver vår framgång och innovation."
+    },
+    "about": {
+        "title": "Om oss",
+        "text1": "JobDeal är en banbrytande frilans- och gig-marknadsplats som kopplar samman frilansare och entreprenörer direkt, utan mellanhänder, för att minska kostnader och öka effektiviteten. Genom att använda blockchain, principer för decentraliserade autonoma organisationer (DAO) och artificiell intelligens, säkerställer JobDeal förstklassig säkerhet, transparens och automatisering. Vår plattform erbjuder ett brett utbud av tjänster för både lokala och globala marknader, från arbetsintensiva till intellektuella uppgifter, med konkurrenskraftiga priser och ett åtagande att donera 1% av vinsten till välgörenhet.",
+        "test2": "Vår vision är att revolutionera frilansgig-ekonomin genom att skapa en direkt, säker och rättvis arbetsmarknad. Vi tar itu med centrala utmaningar som höga kostnader, bedrägerier och kommunikationsbarriärer genom att använda NFT-profiler för verifierbara identiteter, ett blockchain-baserat betygssystem och AI-förbättrade funktioner."
+    },
+    "features": {
+        "title": "Funktioner",
+        "text1": "JobDeals funktioner inkluderar AI-baserad automatisering, statligt klassad kryptering, flexibla escrow-tjänster, ett tvistlösningsmodul, ett rekrytera-till-att-tjäna-program och mer. Entreprenörer kan enkelt publicera jobbannonser och välja olika betalningsmetoder, medan frilansare drar nytta av säkra, escrow-skyddade betalningar. Vi skiljer oss från konkurrenterna genom att erbjuda lägre avgifter, bättre kvalitetskontroll och ett decentraliserat tvistlösningssystem. Med uppskattningsvis 1,67 miljarder frilansare globalt siktar JobDeal på att utnyttja denna växande marknad, särskilt i framväxande ekonomier.",
+        "text2": "Vi engagerar teknikintresserade genom blockchain-forum och konferenser, och säkerställer global tillgång med flerspråkigt stöd och lokala partnerskap. Vår proaktiva riskhantering och omfattande kundsupport säkerställer användarnas förtroende och tillfredsställelse."
+    },
+    "team": {
+        "title": "Möt vårt team"
+    }
+}

@@ -1,9 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-
-import commonEn from './locales/en/common.json';
-import commonSv from './locales/sv/common.json';
+import { homedir } from 'os';
 
 i18n
   .use(LanguageDetector)
@@ -11,10 +9,16 @@ i18n
   .init({
     resources: {
       en: {
-        common: commonEn
+        home: require('./locales/en/home.json'),
+        common: require('./locales/en/common.json'),
+        about: require('./locales/en/about.json'),
+        investors: require('./locales/en/investors.json'),
       },
       sv: {
-        common: commonSv
+        home: require('./locales/sv/home.json'),
+        common: require('./locales/sv/common.json'),
+        about: require('./locales/sv/about.json'),
+        investors: require('./locales/sv/investors.json'),
       },
     },
     fallbackLng: 'en',

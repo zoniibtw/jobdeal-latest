@@ -1,0 +1,20 @@
+{
+    "hero": {
+        "title": "Meet our team,",
+        "marked": "and our vision.",
+        "paragraph": "Get to know the dedicated professionals and the inspiring vision that drive our success and innovation."
+    },
+    "about": {
+        "title": "About",
+        "text1": "JobDeal is a cutting-edge freelance and gig marketplace that connects freelancers and contractors directly, eliminating middlemen to reduce costs and increase efficiency. Leveraging Blockchain, decentralized autonomous organization (DAO) principles, and artificial intelligence, JobDeal ensures top-notch security, transparency, and automation. Our platform offers a wide range of services for local and global markets, from labor-intensive to intellectual tasks, with competitive pricing and a commitment to donate 1% of profits to charity.",
+        "test2": "Our vision is to revolutionize the freelance gig economy by creating a direct, secure, and fair job market. We address key challenges like high costs, scams, and communication barriers by using NFT profiles for verifiable identities, a blockchain-based rating system, and AI-enhanced features."
+    },
+    "features": {
+        "title": "Features",
+        "text1": "JobDeal's features include AI-based automation, government-grade encryption, flexible escrow services, a dispute resolution module, a recruit-to-earn program, and more. Contractors can easily publish job ads and choose various payment methods, while freelancers benefit from secure, escrow-protected payments. We stand out from competitors by offering lower fees, better quality control, and a decentralized dispute resolution system. With an estimated 1.67 billion freelancers globally, JobDeal aims to tap into this growing market, particularly in emerging economies.",
+        "text2": "We engage with tech-savvy audiences through blockchain forums and conferences, ensuring global accessibility with multi-language support and local partnerships. Our proactive risk management and comprehensive customer support ensure user trust and satisfaction."
+    },
+    "team": {
+        "title": "Meet our Team"
+    }
+}

@@ -1,4 +1,48 @@
 {
-    "welcome_message": "Välkommen till startsidan!",
-    "home_subtitle": "Detta är huvudsidan på vår webbplats."
+  "header": {
+    "link1": "Roadmap",
+    "link2": "Om oss",
+    "link3": "Nyheter",
+    "link4": "För investerare",
+    "link5": "Kontakta oss",
+    "link6": "FAQ"
+  },
+  "footer": {
+    "nav1": {
+      "link1": "Roadmap",
+      "link2": "LightPaper",
+      "link3": "För investerare",
+      "link4": "Kontakta oss",
+      "link5": "Nyheter",
+      "link6": "Om oss",
+      "link7": "FAQ"
+    },
+    "nav2": {
+      "link1": "Villkor",
+      "link2": "Sekretesspolicy",
+      "link3": "Hantera cookies"
+    },
+    "copywrite": "JobDeal © 2024 Alla rättigheter förbehållna",
+    "community": "Gå med i vår community"
+  },
+  "banner": {
+    "title": "Rekommendera en frilansare.",
+    "title2": "Tjäna belöningar.",
+    "paragraph": "Tjäna belöningar genom att bjuda in vänner att gå med i JobDeal. Du kommer att få 10% provision på deras vinster som ett tack för att du stödjer vår community.",
+    "button": "Kommer snart",
+    "box1": {
+      "title": "Vi har revolutionerat jobbsökandet!",
+      "paragraph": "Vår algoritm säkerställer att du hittar de bästa jobben på rekordtid."
+    },
+    "box2": {
+      "title": "Anställ pålitliga personer enkelt",
+      "paragraph": "Vi kopplar dig till topptalanger för jobbet. Experter med de nödvändiga färdigheterna för att få jobbet gjort."
+    }
+  },
+  "newsletter": {
+    "title": "Håll kontakten",
+    "undertitle": "Prenumerera på vårt nyhetsbrev",
+    "input": "e-post",
+    "button": "Prenumerera"
   }
+}
