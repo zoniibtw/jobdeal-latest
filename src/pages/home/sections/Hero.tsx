@@ -13,9 +13,9 @@ const Hero: React.FC = () => {
     <section className="text-white h-screen flex flex-col justify-center">
       <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center mt-[75px] gap-14">
         <div className="w-full flex items-center justify-start">
-            <div className="lg:min-w-[650px] lg:max-w-[750px]">
-                <h1 className="text-4xl text-start md:text-5xl lg:text-6xl font-semibold mb-4">{t('hero.title1')}<br/><span className="text-[#40D2A3]">{t('hero.title2')}</span></h1>
-                <p className="text-lg text-start md:text-xl lg:text-lg mb-8">{t('hero.paragraph')}</p>
+            <div className="w-full lg:min-w-[650px] lg:max-w-[750px]">
+                <h1 className="text-3xl text-start md:text-5xl lg:text-6xl font-semibold mb-4">{t('hero.title1')}<br/><span className="text-[#40D2A3]">{t('hero.title2')}</span></h1>
+                <p className="text-sm text-start md:text-xl lg:text-lg mb-8">{t('hero.paragraph')}</p>
                 
                  <div className="flex space-x-4 mb-12">
                   <Link to="/about" className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded hover:cursor-pointer">{t('hero.button')}</Link>

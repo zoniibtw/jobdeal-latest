@@ -9,15 +9,15 @@ const BannerFooter = ({}) => {
         <section className="mx-auto flex flex-col items-center">
             <div className="container">
                 <div className="w-full rounded-lg bg-white/5 border border-white/25 p-16 flex justify-between items-center">
-                    <div className="flex flex-col gap-4 w-2/6">
-                        <h1 className="text-white text-4xl font-semibold">{t('banner.title')}<br/>{t('banner.title2')}</h1>
-                        <p className="text-white">{t('banner.paragraph')}</p>
+                    <div className="flex flex-col gap-4 w-2/6 max-md:w-full">
+                        <h1 className="text-white text-4xl font-semibold max-md:text-3xl">{t('banner.title')}<br className="max-md:hidden"/>{t('banner.title2')}</h1>
+                        <p className="text-white max-md:text-sm">{t('banner.paragraph')}</p>
                         <div className="">
                             <button className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded">{t('banner.button')}</button>
                         </div>    
                     </div>
 
-                    <div className="w-4/6 flex justify-center relative">
+                    <div className="w-4/6 flex justify-center relative max-md:hidden">
                         <div className="absolute h-full w-full">
                             <div className="w-full h-full flex flex-col justify-center gap-12 px-9">
                                 <div className="w-full flex justify-end">

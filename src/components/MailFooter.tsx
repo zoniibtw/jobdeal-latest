@@ -4,7 +4,7 @@ import MailIcon from "../assets/svg/newsletter.svg";
 const MailFooter = ({}) => {
     return (
         <section className="w-full flex flex-col items-center">
-            <div className="container w-full flex items-center px-[8%] py-10">
+            <div className="container w-full flex items-center px-[8%] py-10 max-md:flex-col max-md:gap-5">
                 <div className="w-full flex justify-between">
                     <div className="flex items-center gap-8">
                         <img src={MailIcon} className="w-16 hauto" alt="" />

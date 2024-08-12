@@ -7,7 +7,7 @@ const Vision: React.FC = () => {
   return (
     <section className="text-white pb-20 flex flex-col justify-center">
       <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center justify-center mt-[75px]">
-        <div className="w-full grid grid-cols-2 gap-20">
+        <div className="w-full grid grid-cols-2 gap-20 max-md:grid-cols-1">
             <div className="rounded-lg border border-white/25 bg-white/5 col-span-1 p-6">
                 <div className="w-full flex flex-col gap-5">
                     <div className="flex">
