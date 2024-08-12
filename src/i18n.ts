@@ -13,12 +13,14 @@ i18n
         common: require('./locales/en/common.json'),
         about: require('./locales/en/about.json'),
         investors: require('./locales/en/investors.json'),
+        news: require('./locales/en/news.json')
       },
       sv: {
         home: require('./locales/sv/home.json'),
         common: require('./locales/sv/common.json'),
         about: require('./locales/sv/about.json'),
         investors: require('./locales/sv/investors.json'),
+        news: require('./locales/en/news.json')
       },
     },
     fallbackLng: 'en',

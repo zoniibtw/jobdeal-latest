@@ -37,7 +37,7 @@ const roadmapItems: RoadmapItem[] = [
     ],
   },
   {
-    date: 'Q5 2024',
+    date: 'Q4 2024',
     details: [
       'Integration of Crypto Wallet: Enabling users to manage their crypto assets directly within the JobDeal platform.',
       'JobDeal Support: Expanding our support services to offer comprehensive assistance to users.',
