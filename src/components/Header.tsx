@@ -47,8 +47,8 @@ const Header: React.FC = () => {
                         <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('faq')}</Link>
                     </nav>
                     <div className="flex space-x-4">
-                        <button onClick={() => changeLanguage('sv')} className="text-white">SV</button>
-                        <button onClick={() => changeLanguage('en')} className="text-white">EN</button>
+                        <button onClick={() => changeLanguage('sv')} className="text-white w-4 h-auto"><CircleFlag countryCode="se" /></button>
+                        <button onClick={() => changeLanguage('en')} className="text-white w-4 h-auto"><CircleFlag countryCode="uk" /></button>
                     </div>
                 </div>
             </header>

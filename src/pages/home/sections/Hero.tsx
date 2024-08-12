@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import BNB from "../../../assets/svg/bnb.svg";
 import NearU from "../../../assets/svg/near-u.svg";
 import Moongy from "../../../assets/svg/moongy.svg";
@@ -15,8 +16,8 @@ const Hero: React.FC = () => {
                 <p className="text-lg text-start md:text-xl lg:text-2xl mb-8">Introducing JobDeal – the first-of-its-kind platform that revolutionizes the job market with cutting-edge AI integration at every step. Experience unparalleled job connections as our advanced AI seamlessly matches Users and Freelancers, ensuring a secure, flexible, and highly efficient process. Step into the future with JobDeal, where your perfect job or ideal freelancer is just a click away!</p>
                 
                  <div className="flex space-x-4 mb-12">
-                  <button className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded">Read More</button>
-                  <button className="border border-[#40D2A3] text-[#40D2A3] px-6 py-2 rounded">Contact us</button>
+                  <Link to="/about" className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded">Read More</Link>
+                  <Link to="/contact" className="border border-[#40D2A3] text-[#40D2A3] px-6 py-2 rounded">Contact us</Link>
                 </div> 
             </div>
 
