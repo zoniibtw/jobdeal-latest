@@ -1,7 +1,6 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import { homedir } from 'os';
 
 i18n
   .use(LanguageDetector)
@@ -15,6 +14,8 @@ i18n
         investors: require('./locales/en/investors.json'),
         news: require('./locales/en/news.json'),
         faq: require('./locales/en/faq.json'),
+        contact: require('./locales/en/contact.json'),
+        roadmap: require('./locales/en/roadmap.json'),
       },
       sv: {
         home: require('./locales/sv/home.json'),
@@ -23,6 +24,8 @@ i18n
         investors: require('./locales/sv/investors.json'),
         news: require('./locales/sv/news.json'),
         faq: require('./locales/sv/faq.json'),
+        contact: require('./locales/sv/contact.json'),
+        roadmap: require('./locales/sv/roadmap.json')
       },
     },
     fallbackLng: 'en',

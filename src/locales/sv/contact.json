@@ -1,0 +1,14 @@
+{
+    "hero": {
+        "title": "Kom i kontakt med oss,",
+        "marked": "vi är här för att hjälpa.",
+        "paragraph": "Hör av dig vid frågor, support eller feedback. Vi är bara ett mejl bort."
+    },
+    "form": {
+        "name": "namn",
+        "email": "epost",
+        "subject": "ämne",
+        "message": "meddelande",
+        "button": "skicka"
+    }
+}

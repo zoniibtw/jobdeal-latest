@@ -41,7 +41,7 @@ const Header: React.FC = () => {
                     <nav className="flex space-x-6">
                         <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link1')}</Link>
                         <Link to="/about" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link2')}</Link>
-                        <Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>
+                        {/*<Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>*/}
                         <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link4')}</Link> 
                         <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link5')}</Link>
                         <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('header.link6')}</Link>

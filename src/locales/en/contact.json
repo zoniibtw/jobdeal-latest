@@ -1,0 +1,14 @@
+{
+    "hero": {
+        "title": "Get in touch with us,",
+        "marked": "we're here to help.",
+        "paragraph": "Reach out for any inquiries, support, or feedback. We're just an email away."
+    },
+    "form": {
+        "name": "name",
+        "email": "email",
+        "subject": "subject",
+        "message": "message",
+        "button": "send"
+    }
+}

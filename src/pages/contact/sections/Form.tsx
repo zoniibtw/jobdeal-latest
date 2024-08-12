@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const ContactPage: React.FC = () => {
+  const { t } = useTranslation(['contact']);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -29,7 +31,7 @@ const ContactPage: React.FC = () => {
         <div className="w-full max-w-md">
           <form onSubmit={handleSubmit} className="bg-white/5 border-white/25 border p-8 rounded-lg shadow-lg">
             <div className="mb-4">
-              <label htmlFor="name" className="block text-left text-sm font-medium mb-2">Name</label>
+              <label htmlFor="name" className="block capitalize text-left text-sm font-medium mb-2">{t('form.name')}</label>
               <input
                 type="text"
                 id="name"
@@ -41,7 +43,7 @@ const ContactPage: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-left text-sm font-medium mb-2">Email</label>
+              <label htmlFor="email" className="block capitalize text-left text-sm font-medium mb-2">{t('form.email')}</label>
               <input
                 type="email"
                 id="email"
@@ -53,7 +55,7 @@ const ContactPage: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="subject" className="block text-left text-sm font-medium mb-2">Subject</label>
+              <label htmlFor="subject" className="block capitalize text-left text-sm font-medium mb-2">{t('form.subject')}</label>
               <input
                 type="text"
                 id="subject"
@@ -65,7 +67,7 @@ const ContactPage: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-left text-sm font-medium mb-2">Message</label>
+              <label htmlFor="message" className="block capitalize text-left text-sm font-medium mb-2">{t('form.message')}</label>
               <textarea
                 id="message"
                 name="message"
@@ -75,8 +77,8 @@ const ContactPage: React.FC = () => {
                 required
               />
             </div>
-            <button type="submit" className="w-full py-2 bg-[#40D2A3] border border-[#40D2A3] text-[#222] rounded focus:outline-none focus:ring-2 focus:ring-[#40D2A3]">
-              Send
+            <button type="submit" className="w-full capitalize py-2 bg-[#40D2A3] border border-[#40D2A3] text-[#222] rounded focus:outline-none focus:ring-2 focus:ring-[#40D2A3]">
+            {t('form.button')}
             </button>
           </form>
         </div>

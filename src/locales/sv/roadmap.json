@@ -1,0 +1,67 @@
+{
+    "hero": {
+        "title": "Vår framtida resa,",
+        "marked": "din framtid utfolder sig.",
+        "paragraph": "Upptäck de milstolpar som driver vår vision och de innovationer som formar din framgång."
+    },
+    "one": {
+        "date": "Q3 2024",
+        "details": [
+          "Lansering av Web3 Version 1.34: Släppet av den senaste versionen av vår Web3-plattform, som inkluderar förbättrade funktioner och förbättringar för en mer robust användarupplevelse.",
+          "Watch2Earn: Introduktion av en ny funktion som gör det möjligt för användare att tjäna pengar genom att titta på innehåll, delta i utbildningsvideor och annonser.",
+          "AI Translate Chat: Implementering av AI-driven översättning för realtids flerspråkig chatt, som förbättrar kommunikationen mellan globala användare.",
+          "Verifiering: Stärka våra verifieringsprocesser för att säkerställa äktheten och trovärdigheten hos användarprofiler.",
+          "JobDeal Remote och Web3-tjänster: Utökning av våra tjänster för att inkludera fjärrjobb och Web3-relaterade gig.",
+          "Airdrops: Genomföra token-airdrops för att belöna vårt community och främja engagemang.",
+          "On-ramp Betalningssystem: Introduktion av ett sömlöst betalningssystem för enklare ombordstigning och transaktioner inom plattformen."
+        ]
+    },
+    "two": {
+        "date": "Q4 2024",
+        "details": [
+          "ICO Lansering: Initial Coin Offering för att samla in medel för vidareutveckling och expansion av JobDeal.",
+          "JobDeal Charity: Lansering av välgörenhetsinitiativ som en del av vårt åtagande att ge tillbaka till samhället.",
+          "Learn2Earn: En ny funktion som gör det möjligt för användare att tjäna pengar genom att delta i inlärningsmoduler och färdighetsutvecklingskurser.",
+          "Funktion för akuta jobb: Introduktion av funktionalitet för akuta jobbannonser, som möjliggör snabbare matchning och svarstider.",
+          "Förbättrad annonsfunktion: Förbättring av annonseringsfunktioner för bättre riktning och engagemang.",
+          "JobDealers NFT-kollektion: Lansering av en exklusiv NFT-kollektion för våra användare, som tillför värde och exklusivitet till plattformen.",
+          "AI Översättning Chatt: Ytterligare utveckling och förbättring av våra AI-översättningschattfunktioner.",
+          "JobDeal Marknadsplats: Öppning av en marknadsplats för användare att köpa och sälja tjänster och digitala produkter.",
+          "Jobbsöknings- och matchningsalgoritm: Introduktion av en avancerad algoritm för att förbättra jobbsökningens noggrannhet och matchningseffektivitet.",
+          "Integrerad chattagent: Implementering av en chattagent för sömlös kommunikation och support inom plattformen.",
+          "Virtuellt kontorsutrymme: Lansering av en funktion för virtuella kontorsutrymmen för att underlätta fjärrsamarbete och projektledning.",
+          "Kundprojektledningsverktyg: Tillhandahålla verktyg för kunder att effektivt hantera sina projekt inom JobDeal-plattformen.",
+          "Back Office Supportapplikation: Introduktion av back-office supportapplikationer för att hjälpa användare med administrativa uppgifter."
+        ]
+    },
+    "three": {
+        "date": "Q4 2024",
+        "details": [
+          "Integration av Crypto Wallet: Möjliggöra för användare att hantera sina kryptovaluta-tillgångar direkt inom JobDeal-plattformen.",
+          "JobDeal Support: Utöka våra supporttjänster för att erbjuda omfattande hjälp till användare.",
+          "Dela data för intäkter: Introduktion av funktioner för att dela och analysera intäktsdata för bättre ekonomiska insikter.",
+          "Ge dricks till frilansare: Lägga till en dricks-funktion för att tillåta kunder att belöna frilansare för utmärkt arbete.",
+          "JobDealers Exchange-tjänst: Lansera en utbytestjänst för användare att handla JobDeal-relaterade tokens och tillgångar."
+        ]
+    },
+    "four": {
+        "date": "Q1 2025",
+        "details": [
+          "Kompetenskurser (Learn2Earn): Utöka Learn2Earn-programmet med nya kompetenskurser för att förbättra användarnas kapabiliteter och intjäningspotential.",
+          "USA Version Release: Lansera en lokaliserad version av JobDeal för den amerikanska marknaden, anpassad för att möta regionala krav.",
+          "Utveckling av mobilapplikation: Utveckla en mobilapplikation för att ge användare större tillgång och bekvämlighet.",
+          "Säkerhets- och integritetsförbättringar: Implementera avancerade säkerhets- och integritetsåtgärder för att skydda användardata och transaktioner.",
+          "Analys och rapportering: Tillhandahålla omfattande analys- och rapporteringsverktyg för bättre beslutsfattande och prestationsövervakning.",
+          "Skalbarhet och infrastruktur: Förbättra plattformens skalbarhet och infrastruktur för att stödja ökad användardemanda.",
+          "Kontinuerlig integration och distribution: Anamma kontinuerlig integration och distributionspraxis för snabbare och mer pålitliga uppdateringar.",
+          "Användarfeedback och iterativa förbättringar: Kontinuerligt samla in användarfeedback och göra iterativa förbättringar för att förbättra plattformen."
+        ]
+    },
+    "five": {
+        "date": "Q1-Q2 2025",
+        "details": [
+          "Påbörja decentralisering av JobDeal: Påbörja processen för att decentralisera JobDeal-plattformen för att säkerställa större transparens och användarkontroll.",
+          "Lansera B2C och B2B AI-system: Introducera AI-system anpassade för både business-to-consumer och business-to-business interaktioner, för att förbättra den övergripande användarupplevelsen."
+        ]
+    }
+}
