@@ -10,7 +10,7 @@ const BannerFooter = ({}) => {
                         <h1 className="text-white text-4xl font-semibold">Refer a Freelancer.<br/>Earn Rewards.</h1>
                         <p className="text-white">Earn rewards by inviting friends to join JobDeal. You’ll receive a 10% commission on their profits as a thank you for supporting our community.</p>
                         <div className="">
-                            <button className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded">Get Started</button>
+                            <button className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded">Coming soon</button>
                         </div>    
                     </div>
 

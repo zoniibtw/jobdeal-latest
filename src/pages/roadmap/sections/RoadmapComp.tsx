@@ -7,7 +7,7 @@ interface RoadmapItem {
 
 const roadmapItems: RoadmapItem[] = [
   {
-    date: 'Q2 2024',
+    date: 'Q3 2024',
     details: [
       'Launch of Web3 Version 1.34: The release of the latest version of our Web3 platform, incorporating enhanced features and improvements for a more robust user experience.',
       'Watch2Earn: Introduction of a new feature allowing users to earn by watching content, engaging with educational videos, and advertisements.',
@@ -19,7 +19,7 @@ const roadmapItems: RoadmapItem[] = [
     ],
   },
   {
-    date: 'Q3 2024',
+    date: 'Q4 2024',
     details: [
       'ICO Launch: Initial Coin Offering to raise funds for further development and expansion of JobDeal.',
       'JobDeal Charity: Launching charitable initiatives as part of our commitment to give back to the community.',
@@ -37,7 +37,7 @@ const roadmapItems: RoadmapItem[] = [
     ],
   },
   {
-    date: 'Q4 2024',
+    date: 'Q5 2024',
     details: [
       'Integration of Crypto Wallet: Enabling users to manage their crypto assets directly within the JobDeal platform.',
       'JobDeal Support: Expanding our support services to offer comprehensive assistance to users.',

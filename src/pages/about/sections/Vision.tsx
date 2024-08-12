@@ -9,7 +9,7 @@ const Vision: React.FC = () => {
                 <div className="w-full flex flex-col gap-5">
                     <div className="flex">
                         <div className="flex flex-col items-start">
-                            <h1 className="text-xl font-semibold leading-none">Vision</h1>
+                            <h1 className="text-xl font-semibold leading-none">About</h1>
                         </div>
                     </div>
 

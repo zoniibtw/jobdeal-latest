@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
 type FAQItem = {
   question: string;
@@ -130,20 +130,22 @@ const Section: React.FC = () => {
   return (
     <section className="text-white pt-20 pb-40">
       <div className="container max-md:px-5 mx-auto">
-        <div className="space-y-4">
+        <div className="flex flex-wrap -mx-3.5">
           {faqItems.map((item, index) => (
-            <div key={index} className="border border-white/25 bg-white/5 rounded-md">
-              <button
-                className="w-full text-left p-4 font-medium text-lg focus:outline-none"
-                onClick={() => toggleFAQ(index)}
-              >
-                {item.question}
-              </button>
-              <div
-                className={`overflow-hidden transition-max-height duration-500 ease-in-out ${activeIndex === index ? 'max-h-screen' : 'max-h-0'}`}
-              >
-                <div className="p-4 text-white/75 whitespace-pre-line">
-                  {item.answer}
+            <div key={index} className="w-full md:w-1/2 px-3.5 mb-3.5">
+              <div className="border border-white/25 bg-white/5 rounded-md">
+                <button
+                  className="w-full text-left p-4 font-medium text-lg focus:outline-none"
+                  onClick={() => toggleFAQ(index)}
+                >
+                  {item.question}
+                </button>
+                <div
+                  className={`overflow-hidden transition-all duration-500 ease-in-out ${activeIndex === index ? 'max-h-[1000px] p-4' : 'max-h-0 p-0'}`}
+                >
+                  <div className="text-white/75 whitespace-pre-line">
+                    {item.answer}
+                  </div>
                 </div>
               </div>
             </div>

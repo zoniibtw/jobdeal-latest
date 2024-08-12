@@ -25,12 +25,20 @@ const Footer = () => {
     return (
         <footer className="mx-auto bg-[#041410] flex flex-col items-center py-10">
             <div className="container w-full flex flex-col gap-6">
-                <div className="w-full">
+                <div className="w-full flex flex-col gap-2.5">
                     <nav className="text-white flex justify-start gap-8">
-                        <a href="">About Us</a>
-                        <a href="">WhitePaper</a>
-                        <a href="">Help & Support</a>
-                        <a href="">Escrow Services</a>
+                        <a href="">Roadmap</a>
+                        <a href="">LightPaper</a>
+                        <a href="">For investors</a>
+                        <a href="">Contact us</a>
+                        <a href="">News</a>
+                        <a href="">About</a>
+                        <a href="">FAQ</a>
+                    </nav>
+                    <nav className="text-white/55 text-xs flex justify-start gap-8">
+                        <a href="">Terms & Condition</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Manage Cookies</a>
                     </nav>
                 </div>
                 <div className="w-full flex justify-between">

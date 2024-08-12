@@ -3,6 +3,18 @@ import Image from "../../../assets/sample.png";
 import Hakan from "../../../assets/png/staff/hakan.jpeg";
 import Nino from "../../../assets/png/staff/nino.jpeg";
 import Markus from "../../../assets/png/staff/markus.jpeg";
+import Daniel from "../../../assets/png/staff/10.jpeg";
+import Jayper from "../../../assets/png/staff/Rectangle 80.png";
+import Pedro from "../../../assets/png/staff/Rectangle 79.png";
+import Fatima from "../../../assets/png/staff/image 58.png";
+import Dasha from "../../../assets/png/staff/Rectangle 39.png";
+import Jan from "../../../assets/png/staff/Rectangle 78.png";
+import Daniel2 from "../../../assets/png/staff/Rectangle 82.png";
+import Stella from "../../../assets/png/staff/stella.jpeg";
+import Arsalan from "../../../assets/png/staff/arslan.jpeg";
+import Maglorie from "../../../assets/png/staff/maglorie.jpeg";
+import Bilal from "../../../assets/png/staff/bilal.jpeg";
+import Temitayo from "../../../assets/png/staff/temitayo.jpeg";
 import LinkedIn from "../../../assets/svg/linkedin.svg";
 import Mail from "../../../assets/svg/newsletter.svg";
 
@@ -23,20 +35,6 @@ const Team: React.FC = () => {
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Jan Jakub Kowalczyk',
-            title: '',
-            image: Image,
-            mail: 'jan@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
-            name: 'Pedro Aguiar',
-            title: '',
-            image: Image,
-            mail: 'pedro@jobdeal.com',
-            linkedin: 'https://linkedin.com/'
-        },
-        {
             name: 'Markus Barth-Jörgensen',
             title: 'Manager & Co-Founder',
             image: Markus,
@@ -44,45 +42,87 @@ const Team: React.FC = () => {
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Younes Bendella',
-            title: '',
-            image: Image,
-            mail: 'younes@jobdeal.com',
+            name: 'Jayper Sanchez',
+            title: 'CTO',
+            image: Jayper,
+            mail: 'jayper@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Daniel',
-            title: '',
-            image: Image,
+            name: 'Bilal Sanchez',
+            title: 'CMO',
+            image: Bilal,
+            mail: 'bilal@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Fatima',
+            title: 'CPO',
+            image: Fatima,
+            mail: 'fatima@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Daniel Simon',
+            title: 'Partners & Relations',
+            image: Daniel,
             mail: 'daniel@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Temitayo Adedoyin',
-            title: '',
-            image: Image,
-            mail: 'temitayo@jobdeal.com',
+            name: 'Dasha Chepizhko',
+            title: '-',
+            image: Dasha,
+            mail: 'dasha@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'Kawa Saito',
-            title: '',
-            image: Image,
-            mail: 'kawa@jobdeal.com',
+            name: 'Jan Jakub Kowalcyk',
+            title: 'Crypto Financial Advisor',
+            image: Jan,
+            mail: 'jan@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
-            name: 'GoodBoi',
-            title: '',
-            image: Image,
-            mail: 'GoodBoi@jobdeal.com',
+            name: 'Pedro',
+            title: 'Web3 Advisor',
+            image: Pedro,
+            mail: 'pedro@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
         {
             name: 'Stella Onyinyechi',
-            title: '',
-            image: Image,
+            title: 'Community',
+            image: Stella,
             mail: 'stella@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Temitayo',
+            title: 'Community',
+            image: Temitayo,
+            mail: 'temitayo@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Daniel',
+            title: 'Community',
+            image: Daniel2,
+            mail: 'daniel@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Maglorie',
+            title: 'Community',
+            image: Maglorie,
+            mail: 'maglorie@jobdeal.com',
+            linkedin: 'https://linkedin.com/'
+        },
+        {
+            name: 'Arsalan Ahmed',
+            title: 'Community',
+            image: Arsalan,
+            mail: 'arsalan@jobdeal.com',
             linkedin: 'https://linkedin.com/'
         },
     ];

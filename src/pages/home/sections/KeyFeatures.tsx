@@ -10,32 +10,32 @@ const KeyFeatures: React.FC = () => {
   const features = [
     {
       title: 'Security',
-      description: 'We ensure a fair and secure environment through encrypted technologies, blockchain for secure transactions, escrow services, and dispute resolution, while filtering out inappropriate ads.',
+      description: 'Our platform ensures a fair and secure environment by integrating advanced encryption and blockchain technology for safe transactions. AI-driven escrow services, dispute resolution, and sophisticated algorithms filter out inappropriate ads, elevating security and user trust.',
       icon: Security
     },
     {
       title: 'NFT based User System',
-      description: 'Our NFT system enables users to authenticate, own, monetize, personalize, and interoperate digital assets effectively.',
+      description: 'Our innovative NFT system leverages blockchain to enhance user authentication and asset management, enabling users to own, monetize, personalize, and seamlessly operate within digital spaces. This integration ensures a robust and versatile user experience.',
       icon: NFT
     },
     {
       title: 'Learn To Earn',
-      description: 'With our microlearning content, you can learn at your own pace. You can also earn and get recognized for completing tasks and skills, and spreading knowledge of Web 3 technologies and our functionality.',
+      description: 'Engage with our AI-enhanced microlearning content designed to fit your pace. Earn recognition and rewards by mastering tasks and skills, particularly in Web 3 technologies, enhancing both your knowledge and functionality on our platform.',
       icon: LearnToEarn
     },
     {
       title: 'Recruit To Earn',
-      description: 'Earn rewards by inviting friends to join JobDeal and receive a 10% commission on their generated profits, thanking you for contributing to our community.',
+      description: 'Our AI algorithms optimize your networks potential as you invite friends to join JobDeal. Earn a 10% commission on their generated profits, a token of appreciation for expanding our AI and blockchain-enhanced community.',
       icon: RecruitToEarn
     },
     {
       title: 'Low Costs',
-      description: 'We offer various services with costs ranging from 2.5% to 20% depending on the type of service and payment method, including ad fees, bargains, urgent jobs, enhanced ads, escrow/dispute, and premium membership.',
+      description: 'Our fees range from 2.5% to 20% based on service and payment method, encompassing ad fees, bargains, urgent jobs, enhanced ads, and premium memberships, all optimized to ensure affordability.',
       icon: LowCosts
     },
     {
       title: 'Charity',
-      description: 'We donate 0.1% of every transaction to a community-chosen charity every 6 months, emphasizing the importance of helping the less fortunate.',
+      description: 'We commit 0.1% of every transaction to charities chosen by our community every six months. Our process ensures that contributions are directed towards causes where they can make the most significant impact, reaffirming our dedication to social responsibility.',
       icon: Charity
     }
   ];

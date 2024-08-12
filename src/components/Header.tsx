@@ -1,25 +1,33 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/svg/green-white-logo.svg"
+import { CircleFlag } from 'react-circle-flags';
+import { useTranslation } from 'react-i18next';
+import Logo from "../assets/svg/green-white-logo.svg";
 
-const Header = ({}) => {
+const Header: React.FC = () => {
+    const { t, i18n } = useTranslation();
     const [lastScrollY, setLastScrollY] = useState(0);
     const [visible, setVisible] = useState(true);
     const [colorChange, setColorChange] = useState(false);
+
     const handleScroll = useCallback(() => {
         const currentScrollY = window.scrollY;
         setColorChange(currentScrollY > 100);
         setVisible(currentScrollY < lastScrollY || currentScrollY < 10);
         setLastScrollY(currentScrollY);
-      }, [lastScrollY]);
-    
-      useEffect(() => {
+    }, [lastScrollY]);
+
+    useEffect(() => {
         window.addEventListener('scroll', handleScroll, { passive: true });
-    
+
         return () => {
           window.removeEventListener('scroll', handleScroll);
         };
-      }, [handleScroll]);
+    }, [handleScroll]);
+
+    const changeLanguage = (lng: string) => {
+        i18n.changeLanguage(lng);
+    };
 
     return (
         <>
@@ -27,20 +35,20 @@ const Header = ({}) => {
                 <div className={`container mx-auto flex justify-between items-center transition-all ease-in-out duration-300 ${colorChange ? 'py-2' : 'py-4'}`}>
                     <div className="flex items-center space-x-4">
                         <Link to="/">
-                            <img src={Logo} className="w-auto h-8" alt="" />
+                            <img src={Logo} className="w-auto h-8" alt="Logo" />
                         </Link>
                     </div>
-                        <nav className="flex space-x-6">
-                            <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none">Roadmap</Link>
-                            <Link to="/about" className="hover:text-gray-400 mb-0 leading-none">About</Link>
-                            <Link to="/partners" className="hover:text-gray-400 mb-0 leading-none">Partners</Link> 
-                            <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none">For investors</Link> 
-                            <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none">Contact</Link>
-                            <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none">FAQ</Link>
-                        </nav>
+                    <nav className="flex space-x-6">
+                        <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('roadmap')}</Link>
+                        <Link to="/about" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('about')}</Link>
+                        <Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('news')}</Link>
+                        <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('investors')}</Link> 
+                        <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('contact')}</Link>
+                        <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('faq')}</Link>
+                    </nav>
                     <div className="flex space-x-4">
-                        <button className={`text-[#40D2A3] border border-[#40D2A3] px-4 rounded transition-all ease-in-out duration-300 ${colorChange ? 'py-1' : 'py-2'}`}>Login</button>
-                        <button className={`bg-[#40D2A3] text-black px-4 rounded transition-all ease-in-out duration-300 ${colorChange ? 'py-1' : 'py-2'}`}>Create Account</button>
+                        <button onClick={() => changeLanguage('sv')} className="text-white">SV</button>
+                        <button onClick={() => changeLanguage('en')} className="text-white">EN</button>
                     </div>
                 </div>
             </header>
