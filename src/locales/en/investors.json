@@ -1,5 +1,10 @@
 {
     "investorsPage": {
+        "hero": {
+            "title1": "Partner with us,",
+            "title2": "your investment, our growth.",
+            "paragraph": "Explore the opportunities and potential returns of investing with us. Together, we build the future."
+        },
       "introduction": {
         "greeting": "Dear Potential Investors,",
         "paragraphs": [

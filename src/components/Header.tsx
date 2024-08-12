@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Logo from "../assets/svg/green-white-logo.svg";
 
 const Header: React.FC = () => {
-    const { t, i18n } = useTranslation('common');
+    const { t, i18n } = useTranslation(['common']);
     const [lastScrollY, setLastScrollY] = useState(0);
     const [visible, setVisible] = useState(true);
     const [colorChange, setColorChange] = useState(false);
@@ -39,12 +39,12 @@ const Header: React.FC = () => {
                         </Link>
                     </div>
                     <nav className="flex space-x-6">
-                        <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('roadmap')}</Link>
-                        <Link to="/about" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('about')}</Link>
-                        <Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('news')}</Link>
-                        <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('investors')}</Link> 
-                        <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('contact')}</Link>
-                        <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('faq')}</Link>
+                        <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link1')}</Link>
+                        <Link to="/about" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link2')}</Link>
+                        <Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>
+                        <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link4')}</Link> 
+                        <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link5')}</Link>
+                        <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('header.link6')}</Link>
                     </nav>
                     <div className="flex space-x-4">
                         <button onClick={() => changeLanguage('sv')} className="text-white w-4 h-auto"><CircleFlag countryCode="se" /></button>

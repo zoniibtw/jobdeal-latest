@@ -1,5 +1,10 @@
 {
     "investorsPage": {
+        "hero": {
+            "title1": "Bli partner med oss,",
+            "title2": "din investering, vår tillväxt.",
+            "paragraph": "Utforska möjligheterna och potentiella avkastningar av att investera med oss. Tillsammans bygger vi framtiden."
+        },
       "introduction": {
         "greeting": "Kära potentiella investerare,",
         "paragraphs": [
