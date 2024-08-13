@@ -83,10 +83,10 @@ const ContactPage: React.FC = () => {
           </form>
         </div>
         <div className="mt-10 text-gray-400">
-          <p>JobDeal (International Innovation Management Institute AB)</p>
-          <p>Kungsgatan 8, 111 43 Stockholm</p>
-          <p>Org. number: 559105-6675</p>
-          <p>Email: info@jobdeal.com</p>
+          <p>{t('info.name')}</p>
+          <p>{t('info.address')}</p>
+          <p>{t('info.number')}</p>
+          <p>{t('info.email')}</p>
         </div>
       </div>
     </section>

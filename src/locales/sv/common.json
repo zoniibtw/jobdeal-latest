@@ -42,7 +42,7 @@
   "newsletter": {
     "title": "Håll kontakten",
     "undertitle": "Prenumerera på vårt nyhetsbrev",
-    "input": "e-post",
+    "input": "Epost",
     "button": "Prenumerera"
   }
 }

@@ -10,5 +10,11 @@
         "subject": "subject",
         "message": "message",
         "button": "send"
+    },
+    "info": {
+        "name": "JobDeal (International Innovation Management Institute AB)",
+        "address": "Kungsgatan 8, 111 43 Stockholm",
+        "number": "Org. number: 559105-6675",
+        "email": "Email: info@jobdeal.com"
     }
 }
