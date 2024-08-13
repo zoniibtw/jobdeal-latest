@@ -7,7 +7,7 @@
     "about": {
         "title": "About",
         "text1": "JobDeal is a cutting-edge freelance and gig marketplace that connects freelancers and contractors directly, eliminating middlemen to reduce costs and increase efficiency. Leveraging Blockchain, decentralized autonomous organization (DAO) principles, and artificial intelligence, JobDeal ensures top-notch security, transparency, and automation. Our platform offers a wide range of services for local and global markets, from labor-intensive to intellectual tasks, with competitive pricing and a commitment to donate 1% of profits to charity.",
-        "test2": "Our vision is to revolutionize the freelance gig economy by creating a direct, secure, and fair job market. We address key challenges like high costs, scams, and communication barriers by using NFT profiles for verifiable identities, a blockchain-based rating system, and AI-enhanced features."
+        "text2": "Our vision is to revolutionize the freelance gig economy by creating a direct, secure, and fair job market. We address key challenges like high costs, scams, and communication barriers by using NFT profiles for verifiable identities, a blockchain-based rating system, and AI-enhanced features."
     },
     "features": {
         "title": "Features",

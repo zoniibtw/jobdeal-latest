@@ -48,14 +48,25 @@ const Header: React.FC = () => {
                     <nav className="flex space-x-6">
                         <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link1')}</Link>
                         <Link to="/about" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link2')}</Link>
-                        {/*<Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>*/}
                         <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link4')}</Link> 
                         <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link5')}</Link>
                         <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('header.link6')}</Link>
                     </nav>
                     <div className="flex space-x-4">
-                        <button onClick={() => changeLanguage('sv')} className="text-white w-4 h-auto"><CircleFlag countryCode="se" /></button>
-                        <button onClick={() => changeLanguage('en')} className="text-white w-4 h-auto"><CircleFlag countryCode="uk" /></button>
+                        <button 
+                            onClick={() => changeLanguage('sv')} 
+                            className={`w-5 h-auto rounded-full ${
+                                i18n.language === 'sv' ? 'border-white/100 border-2' : 'border-white/25 border'
+                            }`}>
+                            <CircleFlag countryCode="se" />
+                        </button>
+                        <button 
+                            onClick={() => changeLanguage('en')} 
+                            className={`w-5 h-auto rounded-full ${
+                                i18n.language === 'en' ? 'border-white/100 border-2' : 'border-white/25 border'
+                            }`}>
+                            <CircleFlag countryCode="uk" />
+                        </button>
                     </div>
                 </div>
             </header>
@@ -69,8 +80,20 @@ const Header: React.FC = () => {
                         </Link>
                     </div>
                     <div className="flex items-center space-x-4">
-                        <button onClick={() => changeLanguage('sv')} className="text-white w-4 h-auto"><CircleFlag countryCode="se" /></button>
-                        <button onClick={() => changeLanguage('en')} className="text-white w-4 h-auto"><CircleFlag countryCode="uk" /></button>
+                        <button 
+                            onClick={() => changeLanguage('sv')} 
+                            className={`w-4 h-auto rounded-full ${
+                                i18n.language === 'sv' ? 'border-white/100 border-2' : 'border-white/25 border'
+                            }`}>
+                            <CircleFlag countryCode="se" />
+                        </button>
+                        <button 
+                            onClick={() => changeLanguage('en')} 
+                            className={`w-4 h-auto rounded-full ${
+                                i18n.language === 'en' ? 'border-white/100 border-2' : 'border-white/25 border'
+                            }`}>
+                            <CircleFlag countryCode="uk" />
+                        </button>
                         <button onClick={toggleMenu} className="text-white focus:outline-none">
                             {menuOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
                         </button>
@@ -81,7 +104,6 @@ const Header: React.FC = () => {
                     <nav className="flex flex-col items-center space-y-6 text-white backdrop-blur-md py-6">
                         <Link to="/roadmap" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link1')}</Link>
                         <Link to="/about" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link2')}</Link>
-                        {/*<Link to="/news" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>*/}
                         <Link to="/investors" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link4')}</Link> 
                         <Link to="/contact" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link5')}</Link>
                         <Link to="/faq" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none uppercase">{t('header.link6')}</Link>

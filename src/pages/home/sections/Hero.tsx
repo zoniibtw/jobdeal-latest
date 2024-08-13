@@ -10,7 +10,7 @@ import OutlineLogo from "../../../assets/svg/white-outline-logo.svg"
 const Hero: React.FC = () => {
   const { t } = useTranslation(['home']);
   return (
-    <section className="text-white h-screen flex flex-col justify-center">
+    <section className="text-white h-screen flex flex-col justify-center pt-[30%]">
       <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center mt-[75px] gap-14">
         <div className="w-full flex items-center justify-start">
             <div className="w-full lg:min-w-[650px] lg:max-w-[750px]">

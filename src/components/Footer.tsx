@@ -25,27 +25,25 @@ const Footer = () => {
       }, [currentYear]);
 
     return (
-        <footer className="mx-auto bg-[#041410] flex flex-col items-center py-10">
+        <footer className="mx-auto bg-[#041410] flex flex-col items-center py-10 max-md:px-10">
             <div className="container w-full flex flex-col gap-6">
                 <div className="w-full flex flex-col gap-2.5">
-                    <nav className="text-white flex justify-start gap-8">
-                        <a href="">{t('footer.nav1.link1')}</a>
-                        <a href="">{t('footer.nav1.link2')}</a>
-                        <a href="">{t('footer.nav1.link3')}</a>
-                        <a href="">{t('footer.nav1.link4')}</a>
-                        <a href="">{t('footer.nav1.link5')}</a>
-                        <a href="">{t('footer.nav1.link6')}</a>
-                        <a href="">{t('footer.nav1.link7')}</a>
-                    </nav>
-                    <nav className="text-white/55 text-xs flex justify-start gap-8">
-                        <a href="">{t('footer.nav2.link1')}</a>
-                        <a href="">{t('footer.nav2.link2')}</a>
-                        <a href="">{t('footer.nav2.link3')}</a>
+                    <nav className="text-white flex justify-start gap-x-8 gap-y-2 max-md:text-xs max-md:flex-wrap">
+                        <Link to="/roadmap">{t('footer.nav1.link1')}</Link>
+                        <a href="" target="_blank">{t('footer.nav1.link2')}</a>
+                        <Link to="/investors">{t('footer.nav1.link3')}</Link>
+                        <Link to="/contact">{t('footer.nav1.link4')}</Link>
+                        {/* <Link to="/news">{t('footer.nav1.link5')}</Link> */}
+                        <Link to="/about">{t('footer.nav1.link6')}</Link>
+                        <Link to="/faq">{t('footer.nav1.link7')}</Link>
+                        {/* <Link className="text-white/55" to="">{t('footer.nav2.link1')}</Link> */}
+                        {/* <Link className="text-white/55" to="">{t('footer.nav2.link2')}</Link> */}
+                        {/* <Link className="text-white/55" to="">{t('footer.nav2.link3')}</Link> */}
                     </nav>
                 </div>
-                <div className="w-full flex justify-between">
+                <div className="w-full flex justify-between max-md:flex-col-reverse max-md:gap-10">
                     <div className="">
-                        <p className="text-white/65">
+                        <p className="text-white/65 max-md:text-xs max-md:text-center">
                             JobDeal &copy; {currentYear} {t('footer.copywrite')}
                         </p>
                     </div>
