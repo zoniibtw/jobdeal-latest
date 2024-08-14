@@ -10,10 +10,10 @@ import OutlineLogo from "../../../assets/svg/white-outline-logo.svg"
 const Hero: React.FC = () => {
   const { t } = useTranslation(['home']);
   return (
-    <section className="text-white h-screen flex flex-col justify-center pt-[30%]">
+    <section className="text-white h-screen flex flex-col justify-center pt-[30%] md:pt-0">
       <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center mt-[75px] gap-14">
         <div className="w-full flex items-center justify-start">
-            <div className="w-full lg:min-w-[650px] lg:max-w-[750px]">
+            <div className="w-full lg:min-w-[750px] lg:max-w-[750px]">
                 <h1 className="text-3xl text-start md:text-5xl lg:text-6xl font-semibold mb-4">{t('hero.title1')}<br/><span className="text-[#40D2A3]">{t('hero.title2')}</span></h1>
                 <p className="text-sm text-start md:text-xl lg:text-lg mb-8">{t('hero.paragraph')}</p>
                 
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="w-full h-full hidden lg:flex justify-center items-center relative">
-                <img src={OutlineLogo} className="h-full opacity-10 absolute mb-12" alt="" />
+                <img src={OutlineLogo} className="w-1/2 opacity-10 absolute mb-12" alt="" />
             </div>
         </div>
 
