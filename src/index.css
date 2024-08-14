@@ -7,6 +7,10 @@
   font-optical-sizing: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* background-color: #c88bc7; */
   background-color: #041410;
