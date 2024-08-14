@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const RoadMap: React.FC = () => {
   const { t } = useTranslation(['home']);
   return (
-    <section className="text-white flex flex-col justify-center pb-20">
+    <section className="text-white flex flex-col justify-center pb-20 max-md:pt-10">
       <div className="container max-md:px-5 mx-auto text-center flex flex-col items-center mt-[75px] gap-14">
         <h2 className="text-3xl md:text-4xl font-semibold text-center">A Glimpse into JobDeal's Exciting Roadmap</h2>
         <p className="">
