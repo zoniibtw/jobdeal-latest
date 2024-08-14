@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        pulseOpacity: {
+          '0%, 100%': { opacity: '0.10' },
+          '50%': { opacity: '0.30' },
+        },
+      },
+      animation: {
+        pulseOpacity: 'pulseOpacity 2.5s infinite',
+      },
+    },
   },
   plugins: [],
 }

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         <div className="w-full flex items-center justify-start">
             <div className="w-full lg:min-w-[750px] lg:max-w-[750px]">
                 <h1 className="text-3xl text-start md:text-5xl lg:text-6xl font-semibold mb-4">{t('hero.title1')}<br/><span className="text-[#40D2A3]">{t('hero.title2')}</span></h1>
-                <p className="text-sm text-start md:text-xl lg:text-lg mb-8">{t('hero.paragraph')}</p>
+                <p className="text-sm text-start md:text-xl lg:text-lg mb-8 lg:min-w-[750px] lg:max-w-[750px]">{t('hero.paragraph')}</p>
                 
                  <div className="flex space-x-4 mb-12">
                   <Link to="/about" className="bg-[#40D2A3] border border-[#40D2A3] text-black px-6 py-2 rounded hover:cursor-pointer">{t('hero.button')}</Link>
@@ -24,7 +24,11 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="w-full h-full hidden lg:flex justify-center items-center relative">
-                <img src={OutlineLogo} className="w-1/2 opacity-10 absolute mb-12" alt="" />
+                <img 
+                    src={OutlineLogo} 
+                    className="w-1/2 opacity-10 absolute mb-12 animate-pulseOpacity" 
+                    alt="Outline Logo" 
+                />
             </div>
         </div>
 
