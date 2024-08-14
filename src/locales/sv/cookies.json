@@ -1,0 +1,54 @@
+{
+    "hero": {
+      "title": "Cookiepolicy för Jobdeal",
+      "paragraph": ""
+    },
+    "policies": [
+      {
+        "title": "1. Introduktion",
+        "content": [
+          "Denna cookiepolicy förklarar vad cookies är och hur vi använder dem på Jobdeal. Genom att använda vår app eller webbplats samtycker du till vår användning av cookies enligt beskrivningen i denna policy. Om du inte godkänner användningen av cookies bör du justera dina webbläsarinställningar för att blockera cookies från Jobdeal."
+        ]
+      },
+      {
+        "title": "2. Vad är cookies?",
+        "content": [
+          "Cookies är små textfiler som lagras på din enhet när du besöker en webbplats eller använder en app. De används för att samla in och lagra information om dina aktiviteter och preferenser, för att förbättra din användarupplevelse och för att analysera hur våra tjänster används."
+        ]
+      },
+      {
+        "title": "3. Vilka cookies använder vi?",
+        "content": [
+          "Nödvändiga cookies: Dessa cookies är nödvändiga för att du ska kunna använda våra tjänster och funktioner, såsom att logga in på ditt konto eller hantera betalningar.",
+          "Analys- och prestandacookies: Dessa cookies samlar in information om hur du använder vår app eller webbplats, vilket hjälper oss att förbättra deras funktionalitet. Vi använder denna data för att analysera trafik, identifiera problem och förbättra användarupplevelsen.",
+          "Funktionscookies: Dessa cookies gör det möjligt för vår app eller webbplats att komma ihåg dina inställningar och preferenser, såsom språkval eller inloggningsuppgifter."
+        ]
+      },
+      {
+        "title": "4. Tredjepartscookies",
+        "content": [
+          "Vissa cookies som används i vår app eller på vår webbplats kan komma från tredje parter, såsom leverantörer av analystjänster eller betalningstjänster. Dessa tredje parter har sina egna integritetspolicyer, och vi rekommenderar att du granskar dem för att förstå hur dina data behandlas."
+        ]
+      },
+      {
+        "title": "5. Dina val",
+        "content": [
+          "Du kan ställa in din webbläsare att blockera eller ta bort cookies. Observera att om du inaktiverar cookies kan vissa funktioner i vår app eller på vår webbplats kanske inte fungera som avsett."
+        ]
+      },
+      {
+        "title": "6. Ändringar i denna policy",
+        "content": [
+          "Vi kan uppdatera denna cookiepolicy från tid till annan för att återspegla förändringar i våra metoder eller lagkrav. Eventuella ändringar kommer att publiceras på denna sida."
+        ]
+      },
+      {
+        "title": "7. Kontaktinformation",
+        "content": [
+          "Om du har några frågor om vår användning av cookies, vänligen kontakta oss på:",
+          "**E-post:** support@jobdeal.com",
+          "**Postadress:** Jobdeal, International Innovation Management Institute AB, Kungsgatan 8, 111 43 Stockholm."
+        ]
+      }
+    ]
+  }

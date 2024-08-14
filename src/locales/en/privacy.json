@@ -1,0 +1,131 @@
+{
+    "hero": {
+        "title": "Privacy Policy for Jobdeal",
+        "paragraph": ""
+    },
+    "policies": [
+      {
+        "title": "1. Introduction",
+        "content": [
+          "Jobdeal is committed to protecting your privacy and the security of your personal data. This Privacy Policy (\"Policy\") describes how we collect, use, store, and protect your personal data when you use our mobile application, Jobdeal (\"App\"). By using the App, you agree to the practices described in this Policy. If you do not agree to this Policy, you should not use the App."
+        ]
+      },
+      {
+        "title": "2. What Data Do We Collect?",
+        "content": [
+          {
+            "subtitle": "Information You Provide Directly",
+            "text": "When you create an account, complete your profile, or use the App's services, you may need to provide information such as your name, email address, phone number, address, payment details, and other information necessary to use the service."
+          },
+          {
+            "subtitle": "Automatically Collected Information",
+            "text": "We may automatically collect certain information about your device and how you use the App, including IP address, device type, operating system, unique device identifiers, language settings, location data (if you allow this), and usage data such as logs of the features you use."
+          },
+          {
+            "subtitle": "Communication Data",
+            "text": "If you contact us via email, chat, or other communication methods, we may collect and store these messages to handle your inquiry."
+          }
+        ]
+      },
+      {
+        "title": "3. How Do We Use Your Data?",
+        "content": [
+          {
+            "subtitle": "Providing and Improving the Service",
+            "text": "To offer, maintain, and improve the App's features and user experience."
+          },
+          {
+            "subtitle": "Account and Profile Management",
+            "text": "To create and manage your account, verify your identity, and facilitate communication between users."
+          },
+          {
+            "subtitle": "Payment Management",
+            "text": "To process payments and manage escrow services."
+          },
+          {
+            "subtitle": "Communication",
+            "text": "To send you information and notifications about your use of the App, updates, news, and promotions, as well as to respond to your inquiries and support requests."
+          },
+          {
+            "subtitle": "Security and Compliance",
+            "text": "To protect your data, prevent fraud and unauthorized access to our systems, and comply with laws and regulations."
+          }
+        ]
+      },
+      {
+        "title": "4. Sharing Your Data",
+        "content": [
+          "We do not share your personal data with third parties except in the following cases:",
+          {
+            "subtitle": "With Service Providers",
+            "text": "We may share your data with trusted service providers who help us operate the App, such as to manage payments, send emails, or provide customer support. These providers only have access to the data necessary to perform their services and are obligated to process it in accordance with this Policy."
+          },
+          {
+            "subtitle": "To Comply with Legal Obligations",
+            "text": "We may share your data if required by law, legal process, or upon request from authorities."
+          },
+          {
+            "subtitle": "In Case of Business Transfers",
+            "text": "If Jobdeal undergoes a merger, acquisition, or sale of assets, your data may be transferred as part of that transaction. In such cases, we will notify you before your data is transferred and becomes subject to a different privacy policy."
+          }
+        ]
+      },
+      {
+        "title": "5. Your Rights",
+        "content": [
+          "You have the right to:",
+          {
+            "subtitle": "Access Your Data",
+            "text": "Access the personal data we hold about you and request a copy of it."
+          },
+          {
+            "subtitle": "Request Correction or Deletion",
+            "text": "Request that we correct or delete inaccurate or incomplete data."
+          },
+          {
+            "subtitle": "Withdraw Consent",
+            "text": "Withdraw your consent to the processing of your data at any time."
+          },
+          {
+            "subtitle": "Object to Processing",
+            "text": "Object to the processing of your data for direct marketing or other purposes based on our legitimate interest."
+          },
+          {
+            "subtitle": "Request Restriction",
+            "text": "Request that we restrict the processing of your data under certain circumstances."
+          },
+          {
+            "subtitle": "Data Portability",
+            "text": "Have your data transferred to another service provider in a machine-readable format."
+          },
+          "To exercise these rights, please contact us using the contact details provided at the end of this Policy."
+        ]
+      },
+      {
+        "title": "6. Data Security",
+        "content": [
+          "We take technical and organizational security measures to protect your personal data against unauthorized access, loss, destruction, or alteration. These measures include encryption, firewalls, and secure server environments."
+        ]
+      },
+      {
+        "title": "7. Data Retention",
+        "content": [
+          "We retain your personal data for as long as necessary to fulfill the purposes for which it was collected, including to comply with legal or administrative requirements."
+        ]
+      },
+      {
+        "title": "8. Changes to This Policy",
+        "content": [
+          "We may update this Policy from time to time. Changes will be published on this page, and you are encouraged to review the policy regularly to stay informed about how we protect your data."
+        ]
+      },
+      {
+        "title": "9. Contact Information",
+        "content": [
+          "If you have any questions or wish to exercise your rights, please contact us at:",
+          "**Email:** support@jobdeal.com",
+          "**Postal Address:** Jobdeal, International Innovation Management Institute AB, Kungsgatan 8, 111 43 Stockholm."
+        ]
+      }
+    ]
+  }

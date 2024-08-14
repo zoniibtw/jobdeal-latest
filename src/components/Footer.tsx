@@ -28,7 +28,7 @@ const Footer = () => {
         <footer className="mx-auto bg-[#041410] flex flex-col items-center py-10 max-md:px-10">
             <div className="container w-full flex flex-col gap-6">
                 <div className="w-full flex flex-col gap-2.5">
-                    <nav className="text-white flex justify-start gap-x-8 gap-y-2 max-md:text-xs max-md:flex-wrap">
+                    <nav className="text-white flex justify-start lg:max-w-[650px] gap-x-8 gap-y-2 max-md:text-xs flex-wrap">
                         <Link to="/roadmap">{t('footer.nav1.link1')}</Link>
                         <a href="" target="_blank">{t('footer.nav1.link2')}</a>
                         <Link to="/investors">{t('footer.nav1.link3')}</Link>
@@ -36,9 +36,9 @@ const Footer = () => {
                         {/* <Link to="/news">{t('footer.nav1.link5')}</Link> */}
                         <Link to="/about">{t('footer.nav1.link6')}</Link>
                         <Link to="/faq">{t('footer.nav1.link7')}</Link>
-                        {/* <Link className="text-white/55" to="">{t('footer.nav2.link1')}</Link> */}
-                        {/* <Link className="text-white/55" to="">{t('footer.nav2.link2')}</Link> */}
-                        {/* <Link className="text-white/55" to="">{t('footer.nav2.link3')}</Link> */}
+                        <Link className="text-white/55" to="/terms-condition">{t('footer.nav2.link1')}</Link>
+                        <Link className="text-white/55" to="/privacy-policy">{t('footer.nav2.link2')}</Link>
+                        <Link className="text-white/55" to="/cookies">{t('footer.nav2.link3')}</Link>
                     </nav>
                 </div>
                 <div className="w-full flex justify-between max-md:flex-col-reverse max-md:gap-10">

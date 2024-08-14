@@ -7,4 +7,8 @@ import RoadMap from "./roadmap/RoadMap";
 import News from "./news/News";
 import FAQ from "./FAQ/FAQ";
 
-export { Home, About, Contact, RoadMap, FAQ, Investor, Partners, News };
+import Terms from "./terms/Terms";
+import Cookies from "./cookies/Cookies";
+import Privacy from "./privacy/Privacy";
+
+export { Home, About, Contact, RoadMap, FAQ, Investor, Partners, News, Terms, Cookies, Privacy };

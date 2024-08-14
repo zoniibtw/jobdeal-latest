@@ -1,0 +1,71 @@
+{
+    "hero": {
+        "title": "Villkor för Jobdeal",
+        "paragraph": ""
+    },
+    "policies": [
+      {
+        "title": "1. Introduktion",
+        "content": [
+          "Dessa allmänna villkor (\"Villkor\") reglerar din användning av Jobdeal, en plattform som erbjuder säker matchning mellan kunder och uppdragstagare. Genom att registrera ett konto eller använda tjänsten godkänner du dessa Villkor. Om du inte godkänner Villkoren, använd inte Jobdeal."
+        ]
+      },
+      {
+        "title": "2. Användning av tjänsten",
+        "content": [
+          "Jobdeal tillhandahåller en plattform där användare kan hitta och matchas med andra för olika typer av arbetsuppdrag. Plattformen erbjuder funktioner för att skapa, publicera och svara på jobbannonser. Användarna ansvarar för att all information som tillhandahålls på plattformen är korrekt och fullständig."
+        ]
+      },
+      {
+        "title": "3. Ansvarsbegränsning för arbetsutförande",
+        "content": [
+          "Jobdeal ansvarar inte för utförandet av arbetsuppdrag som förmedlas via plattformen. Vår roll är att tillhandahålla en säker matchningstjänst mellan kunder och uppdragstagare, men vi kan inte garantera kvaliteten eller slutförandet av det arbete som avtalats mellan parterna.",
+          "Det är upp till kunden och uppdragstagaren att komma överens om detaljerna i arbetsuppdraget. Jobdeal erbjuder dock en escrow-tjänst för att hantera betalningar och skydda båda parter under arbetsprocessen. Escrow-tjänsten är avsedd att förhindra tvister genom att hålla betalningen tills båda parter är överens om att arbetet har slutförts enligt överenskommelse.",
+          "Observera att Jobdeal inte ansvarar för ändringar i avtalet mellan parterna som sker utanför plattformen eller för avtal som inte täcks av den ursprungliga arbetsbeskrivningen på plattformen. Vi kan inte heller hållas ansvariga för några avtalsändringar som görs via plattformens meddelandesystem, om dessa inte bekräftas via en officiell ändring av arbetsbeskrivningen. Parterna uppmanas att dokumentera alla avtal och tillägg skriftligen inom plattformens system för att undvika missförstånd."
+        ]
+      },
+      {
+        "title": "4. Användarens ansvar",
+        "content": [
+          "Användaren förbinder sig att följa gällande lagar och förordningar vid användning av Jobdeal. Användaren ansvarar för att de erbjudanden och arbetsförfrågningar som publiceras på plattformen följer lagstiftningen och inte bryter mot tredje parts rättigheter."
+        ]
+      },
+      {
+        "title": "5. Betalningar, skatteplikt och escrow-tjänst",
+        "content": [
+          "Jobdeal erbjuder en escrow-tjänst för att hantera betalningar mellan kunder och uppdragstagare. När ett arbetsuppdrag har avtalats, placeras betalningen i escrow tills arbetet är slutfört och godkänt av båda parter. Om en tvist uppstår, kommer Jobdeal att agera som en neutral mellanhand för att lösa tvisten, men vi garanterar inte ett specifikt utfall.",
+          "Det är upp till varje användare att säkerställa att de uppfyller sina skatteplikter i enlighet med lagarna i det land där de är skattskyldiga. Jobdeal tar inget ansvar för att deklarera eller rapportera din inkomst; det är ditt ansvar att korrekt rapportera inkomst från uppdrag som förmedlas via plattformen och att betala tillämpliga skatter enligt gällande lagstiftning. Vi ger inte skatterådgivning och rekommenderar att du kontaktar en skatterådgivare om du är osäker på dina skyldigheter."
+        ]
+      },
+      {
+        "title": "6. Tvistlösning",
+        "content": [
+          "Eventuella tvister som uppstår vid användning av Jobdeal bör i första hand lösas mellan de inblandade parterna. Om en lösning inte kan nås erbjuder Jobdeal medling via plattformens supportteam. Jobdeal förbehåller sig rätten att fatta slutgiltiga beslut gällande tvister relaterade till betalningar inom escrow-tjänsten."
+        ]
+      },
+      {
+        "title": "7. Sekretess och dataskydd",
+        "content": [
+          "Jobdeal behandlar användardata i enlighet med gällande dataskyddslagar. För mer information om hur vi hanterar dina personuppgifter, vänligen se vår integritetspolicy."
+        ]
+      },
+      {
+        "title": "8. Ändringar av villkoren",
+        "content": [
+          "Jobdeal förbehåller sig rätten att ändra dessa Villkor när som helst. Ändringar kommer att publiceras på plattformen och användarna ansvarar för att hålla sig uppdaterade om de aktuella Villkoren. Vid betydande ändringar kommer användarna att informeras särskilt. Ändringarna träder i kraft 30 dagar efter att de har meddelats användarna."
+        ]
+      },
+      {
+        "title": "9. Uppsägning av konto",
+        "content": [
+          "Jobdeal förbehåller sig rätten att säga upp eller stänga av en användares konto vid överträdelse av dessa Villkor eller vid misstänkt bedrägligt beteende. Vid kontouppsägning förlorar användaren omedelbart tillgången till plattformens tjänster."
+        ]
+      },
+      {
+        "title": "10. Tillämplig lag och jurisdiktion",
+        "content": [
+          "Dessa Villkor regleras av svensk lag. Eventuella tvister som inte kan lösas genom medling kommer att avgöras av en svensk domstol."
+        ]
+      }
+    ]
+  }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header, BannerFooter, MailFooter, Footer } from "./components/index";
-import { Home, About, Contact, RoadMap, FAQ, Investor, Partners, News } from "./pages/index";
+import { Home, About, Contact, RoadMap, FAQ, Investor, News, Terms, Privacy, Cookies } from "./pages/index";
 
 function App() {
   return (
@@ -16,6 +16,10 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/investors" element={<Investor />} />
             <Route path="/faq" element={<FAQ />} />
+
+            <Route path="/terms-condition" element={<Terms />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
+            <Route path="/cookies" element={<Cookies />} />
           </Routes>
           <BannerFooter />
           <MailFooter />

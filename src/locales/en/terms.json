@@ -1,0 +1,71 @@
+{
+    "hero": {
+        "title": "Terms & Conditions for Jobdeal",
+        "paragraph": ""
+    },
+    "policies": [
+      {
+        "title": "1. Introduction",
+        "content": [
+          "These general terms and conditions (\"Terms\") govern your use of Jobdeal, a platform that provides secure matchmaking between clients and contractors. By registering an account or using the service, you agree to these Terms. If you do not agree to the Terms, do not use Jobdeal."
+        ]
+      },
+      {
+        "title": "2. Use of the Service",
+        "content": [
+          "Jobdeal provides a platform where users can find and be matched with others for various types of work assignments. The platform offers features for creating, publishing, and responding to job requests. Users are responsible for ensuring that all information provided on the platform is accurate and complete."
+        ]
+      },
+      {
+        "title": "3. Limitation of Liability for Work Execution",
+        "content": [
+          "Jobdeal is not responsible for the execution of work assignments mediated through the platform. Our role is to provide a secure matchmaking service between clients and contractors, but we cannot guarantee the quality or completion of the work agreed upon between the parties.",
+          "It is up to the client and the contractor to agree on the details of the work assignment. However, Jobdeal offers an escrow service to manage payments and protect both parties during the course of the work. The escrow service is intended to prevent disputes by holding the payment until both parties agree that the work has been completed as agreed.",
+          "Please note that Jobdeal is not responsible for changes in the agreement between the parties that occur outside the platform or for agreements not covered by the original job description on the platform. We also cannot be held liable for any contract modifications made via the platform's messaging system unless these are confirmed via an official amendment to the job description. Parties are encouraged to document all agreements and additions in writing within the platform's system to avoid misunderstandings."
+        ]
+      },
+      {
+        "title": "4. User Responsibility",
+        "content": [
+          "The user agrees to comply with applicable laws and regulations when using Jobdeal. The user is responsible for ensuring that the offers and job requests published on the platform comply with legislation and do not infringe on third-party rights."
+        ]
+      },
+      {
+        "title": "5. Payments, Tax Obligations, and Escrow Service",
+        "content": [
+          "Jobdeal offers an escrow service to manage payments between clients and contractors. Once a work assignment is agreed upon, the payment is placed in escrow until the work is completed and approved by both parties. If a dispute arises, Jobdeal will act as a neutral intermediary to resolve the dispute, but we do not guarantee a specific outcome.",
+          "It is up to each user to ensure that they meet their tax obligations in accordance with the laws of the country where they are tax liable. Jobdeal assumes no responsibility for declaring or reporting your income; it is your responsibility to accurately report income from assignments mediated through the platform and to pay applicable taxes according to the legislation in force. We do not provide tax advice, and we recommend consulting a tax advisor if you are unsure of your obligations."
+        ]
+      },
+      {
+        "title": "6. Dispute Resolution",
+        "content": [
+          "Any disputes arising from the use of Jobdeal should primarily be resolved between the parties involved. If a resolution cannot be reached, Jobdeal offers mediation through the platform's support team. Jobdeal reserves the right to make final decisions regarding disputes related to payments within the escrow service."
+        ]
+      },
+      {
+        "title": "7. Privacy and Data Protection",
+        "content": [
+          "Jobdeal processes user data in accordance with applicable data protection laws. For more information on how we handle your personal data, please refer to our Privacy Policy."
+        ]
+      },
+      {
+        "title": "8. Changes to the Terms",
+        "content": [
+          "Jobdeal reserves the right to amend these Terms at any time. Changes will be published on the platform, and users are responsible for staying updated on the current Terms. In the event of significant changes, users will be specifically informed. Changes will take effect 30 days after they have been communicated to the users."
+        ]
+      },
+      {
+        "title": "9. Termination of Account",
+        "content": [
+          "Jobdeal reserves the right to terminate or suspend a user's account in the event of a violation of these Terms or suspected fraudulent behavior. Upon account termination, the user immediately loses access to the platform's services."
+        ]
+      },
+      {
+        "title": "10. Governing Law and Jurisdiction",
+        "content": [
+          "These Terms are governed by Swedish law. Any disputes that cannot be resolved through mediation will be settled by a Swedish court."
+        ]
+      }
+    ]
+  }

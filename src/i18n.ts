@@ -16,6 +16,9 @@ i18n
         faq: require('./locales/en/faq.json'),
         contact: require('./locales/en/contact.json'),
         roadmap: require('./locales/en/roadmap.json'),
+        terms: require('./locales/en/terms.json'),
+        cookies: require('./locales/en/cookies.json'),
+        privacy: require('./locales/en/privacy.json'),
       },
       sv: {
         home: require('./locales/sv/home.json'),
@@ -25,7 +28,10 @@ i18n
         news: require('./locales/sv/news.json'),
         faq: require('./locales/sv/faq.json'),
         contact: require('./locales/sv/contact.json'),
-        roadmap: require('./locales/sv/roadmap.json')
+        roadmap: require('./locales/sv/roadmap.json'),
+        terms: require('./locales/sv/terms.json'),
+        cookies: require('./locales/sv/cookies.json'),
+        privacy: require('./locales/sv/privacy.json'),
       },
     },
     fallbackLng: 'en',
