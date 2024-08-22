@@ -1,0 +1,26 @@
+{
+  "id": "unique-post-001",
+  "title": "Sample Blog Post",
+  "coverImage": "../og.jpg",
+  "date": "2024-08-14",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "This is the first paragraph of the blog post."
+    },
+    {
+      "type": "subtitle",
+      "text": "This is a subtitle"
+    },
+    {
+      "type": "quote",
+      "text": "This is a quote."
+    },
+    {
+      "type": "image",
+      "src": "/images/sample-image.jpg",
+      "alt": "Sample Image",
+      "text": "Caption for the image."
+    }
+  ]
+}

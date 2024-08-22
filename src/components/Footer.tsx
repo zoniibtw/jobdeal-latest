@@ -33,7 +33,7 @@ const Footer = () => {
                         <a href="" target="_blank">{t('footer.nav1.link2')}</a>
                         <Link to="/investors">{t('footer.nav1.link3')}</Link>
                         <Link to="/contact">{t('footer.nav1.link4')}</Link>
-                        {/* <Link to="/news">{t('footer.nav1.link5')}</Link> */}
+                        <Link to="/news">{t('footer.nav1.link5')}</Link>
                         <Link to="/about">{t('footer.nav1.link6')}</Link>
                         <Link to="/faq">{t('footer.nav1.link7')}</Link>
                         <Link className="text-white/55" to="/terms-condition">{t('footer.nav2.link1')}</Link>

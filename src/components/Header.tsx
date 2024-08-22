@@ -48,6 +48,7 @@ const Header: React.FC = () => {
                     <nav className="flex space-x-6">
                         <Link to="/roadmap" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link1')}</Link>
                         <Link to="/about" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link2')}</Link>
+                        <Link to="/news" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>
                         <Link to="/investors" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link4')}</Link> 
                         <Link to="/contact" className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link5')}</Link>
                         <Link to="/faq" className="hover:text-gray-400 mb-0 leading-none uppercase">{t('header.link6')}</Link>
@@ -104,6 +105,7 @@ const Header: React.FC = () => {
                     <nav className="flex flex-col items-center space-y-6 text-white backdrop-blur-md py-6">
                         <Link to="/roadmap" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link1')}</Link>
                         <Link to="/about" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link2')}</Link>
+                        <Link to="/news" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link3')}</Link>
                         <Link to="/investors" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link4')}</Link> 
                         <Link to="/contact" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none capitalize">{t('header.link5')}</Link>
                         <Link to="/faq" onClick={toggleMenu} className="hover:text-gray-400 mb-0 leading-none uppercase">{t('header.link6')}</Link>
